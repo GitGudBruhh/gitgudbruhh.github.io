@@ -36,3 +36,14 @@ body {
   }
 }
 
+.gradient-navbar {
+    background: linear-gradient(to right, blue, red); /* Default for small screens */
+    font-family: 'Press Start 2P';
+}
+
+@media (min-width: 768px) {
+    .gradient-navbar {
+        background: linear-gradient(to right, blue, black); /* For larger screens */
+        font-family: 'Press Start 2P';
+    }
+}

@@ -41,4 +41,31 @@ function toggleSnowfall() {
     }
 }
 
-// Call toggleSnowfall() to enable/disable snowfall as needed
+function scrollColors() {
+    const element = document.getElementById('titleMainPage');
+    const text = element.textContent; // Get the original text
+    const colors = ['#FF0000', '#FF7F00', '#FFFF00', '#7FFF00', '#00FF00', '#00FFFF', '#0000FF'];  // 7 different colors
+
+    // Create a new HTML string with each character wrapped in a span
+    const coloredText = text.split('').map((char, index) => {
+        const color = colors[index % colors.length];
+        return `<span style="color: ${color};">${char}</span>`;
+    }).join('');
+
+    element.innerHTML = coloredText; // Set the innerHTML to the colored text
+
+    let offset = 0;
+    setInterval(() => {
+        offset = (offset + 1) % text.length; // Update the offset for scrolling
+        element.innerHTML = text.split('').map((char, index) => {
+            const color = colors[(index + offset) % colors.length]; // Get the color for the current character
+            return `<span style="color: ${color};">${char}</span>`; // Wrap each character in a span
+        }).join('');
+    }, 500); // Change colors every 500 milliseconds
+}
+
+// Call the function when the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', scrollColors);
+
+
+
