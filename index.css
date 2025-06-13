@@ -17,3 +17,22 @@ body {
    background-color: #000;
 }
 
+.snowflake {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: fall 3s linear infinite;
+  z-index: 9;
+  filter: blur(2px);
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
