@@ -12,21 +12,41 @@
     font-style: normal;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
-   color: #fff;
-   background-color: #000;
+    color: #fff;
+    background-color: #000;
+}
+
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.page-content {
+    flex: 1;
 }
 
 .snowflake {
-  position: fixed;
-  width: 8px;
-  height: 8px;
-  background-color: white;
-  border-radius: 50%;
-  pointer-events: none;
-  animation: fall 3s linear infinite;
-  z-index: 9;
-  filter: blur(2px);
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: fall 3s linear infinite;
+    z-index: 9;
+    filter: blur(2px);
 }
 
 @keyframes fall {
@@ -36,14 +56,42 @@ body {
   }
 }
 
+.rotating-image {
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
 .gradient-navbar {
-    background: linear-gradient(to right, blue, red); /* Default for small screens */
+    background: linear-gradient(to right, #000050, #007eca); /* Default for small screens */
     font-family: 'Press Start 2P';
 }
 
 @media (min-width: 768px) {
     .gradient-navbar {
-        background: linear-gradient(to right, blue, black); /* For larger screens */
+        background: linear-gradient(to right, #000050, #000050, #007eca); /* For larger screens */
         font-family: 'Press Start 2P';
+    }
+}
+
+.gradient-footer {
+    background: linear-gradient(to right, #222222, #777777); /* Default for small screens */
+    font-family: 'Press Start 2P';
+    color: 'yellow';
+}
+
+@media (min-width: 768px) {
+    .gradient-footer {
+        background: linear-gradient(to right, #222222, #222222, #777777); /* For larger screens */
+        font-family: 'Press Start 2P';
+        color: 'yellow';
     }
 }
