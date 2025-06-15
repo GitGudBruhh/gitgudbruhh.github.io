@@ -9,7 +9,7 @@ function createSnowflake(x, y) {
     snowflake.style.top = `${y}px`;
 
     // Add random size and speed for variety
-    const size = Math.random() * 5 + 2;
+    const size = Math.random() * 5 + 4;
     snowflake.style.width = `${size}px`;
     snowflake.style.height = `${size}px`;
     snowflake.style.animationDuration = `${Math.random() * 7 + 2}s`;
@@ -30,14 +30,14 @@ document.addEventListener("mousemove", (event) => {
     createSnowflake(event.clientX, event.clientY);
 });
 
-
 function toggleSnowfall() {
     isSnowfallEnabled = !isSnowfallEnabled; // Toggle the variable
     const button = document.getElementById('snowflakeButton');
+    const img = button.querySelector('img');
     if (isSnowfallEnabled) {
-        button.querySelector('img').src = 'public/images/snowflake.gif'; // Start animation
+        img.style.animation = "rotate 5s linear infinite"; // Stop animation
     } else {
-        button.querySelector('img').src = 'public/images/snowflake.png'; // Stop animation
+        img.style.animation = "none"; // Start animation
     }
 }
 
