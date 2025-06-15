@@ -30,6 +30,29 @@ document.addEventListener("mousemove", (event) => {
     createSnowflake(event.clientX, event.clientY);
 });
 
+let isTouching = false; // Flag to track if the user is touching the screen
+
+document.addEventListener("touchstart", (event) => {
+    isTouching = true; // Set the flag to true when touch starts
+    const touch = event.touches[0];
+    createSnowflake(touch.clientX, touch.clientY); // Create firework at the touch point
+});
+
+document.addEventListener("touchmove", (event) => {
+    if (isTouching) {
+        const touch = event.touches[0];
+        createSnowflake(touch.clientX, touch.clientY); // Create firework as the finger moves
+    }
+});
+
+document.addEventListener("touchend", () => {
+    isTouching = false; // Reset the flag when touch ends
+});
+
+
+
+
+
 function toggleSnowfall() {
     isSnowfallEnabled = !isSnowfallEnabled; // Toggle the variable
     const button = document.getElementById('snowflakeButton');
@@ -66,6 +89,3 @@ function scrollColors() {
 
 // Call the function when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', scrollColors);
-
-
-
