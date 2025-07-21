@@ -1,4 +1,4 @@
-# BLOGS
+# BLOGS AND ARTICLES
 
 ## Compilers
 - [Can You Trust a Compiler to Optimize Your Code?](https://matklad.github.io/2023/04/09/can-you-trust-a-compiler-to-optimize-your-code.html) | matklad.github.io
@@ -21,17 +21,36 @@
   - [786KB Linux Distro without Linux MMU RISC-V](https://popovicu.com/posts/789-kb-linux-without-mmu-riscv/) | popovicu.com
   - [Tiny Linux on a NoMMU RISC-V Controller](https://hackaday.com/2023/10/11/tiny-linux-on-a-no-mmu-risc-v-microcontroller/) | hackaday.com
 - [Introduction to SGX — The ELI5](https://scribe.rip/introduction-to-sgx-the-eli5-3abf25e50057) | medium.com | scribe.rip
+- [Content-Addressable Memory Introduction](https://www.pagiamtzis.com/cam/camintro/) | pagiamtzis.com
 
-## Artificial Intelligence
+## Computing
+- [The History of Computing](https://wikipedia.org/wiki/History_of_computing) | wikipedia.org
+- Mechanical Machines
+  - [Mechanical Adder](https://leoctai.com/mechanicalAdder/index.html) | leoctai.com
+  - [How Calculating Machines Worked](https://www.hpmuseum.org/mechwork.htm) | hpmuseum.org
+
+## Theoretical Computer Science
+- Fixed Points and Functional Programming
+  - [The Brouwer Fixed Point Theorem](https://brilliant.org/wiki/brouwer-fixed-point-theorem/) | brilliant.org
+  - [Simple Yet Powerful: Lambda Calculus](https://thealmarty.com/2018/08/07/simple-yet-powerful-lambda-calculus/) | thealmarty.com
+  - [Reucrsion in Lambda Calculus: The Y Combinator](https://thealmarty.com/2018/08/13/recursion-in-lambda-calculus-the-y-combinator/) | thealmarty.com
+  - [The Y-Combinator (no, not that one)](https://scribe.rip/@ayanonagon/the-y-combinator-no-not-that-one-7268d8d9c46) | medium.com | scribe.rip
+- [Algorithms with Predictions](https://algorithms-with-predictions.github.io) | github.io
+
+## Artificial Intelligence and Machine Learning
 - [The Copilot Delusion](https://deplet.ing/the-copilot-delusion/) | deplet.ing
 - [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) | arxiv.org
 
 ## Web Development
 - [Playing with MutationObserver in Javascript](https://www.bennadel.com/blog/4627-playing-with-mutationobserver-in-javascript.htm) | bennadel.com
+- [How well do you know JavaScript's Date class?](https://jsdate.wtf) | jsdate.wtf
 
 ## Development Environments
 - [How I Use the Kate Editor](https://akselmo.dev/posts/how-i-use-kate-editor/) | akselmo.dev
 - [codeberg.org/...](https://codeberg.org/akselmo/dotfiles/src/branch/main/kate/debugger/dap.json) | codeberg.org
+
+## Networking
+- [Even faster connection establishment with QUIC 0-RTT resumption](https://blog.cloudflare.com/even-faster-connection-establishment-with-quic-0-rtt-resumption/) | cloudflare.com
 
 ## Privacy
 - [Why I recommend against Brave](https://thelibre.news/no-really-dont-use-brave/) | thelibre.news
@@ -39,9 +58,12 @@
 ## Security
 - [How the Turla operators hijack satellite Internet links](https://securelist.com/satellite-turla-apt-command-and-control-in-the-sky/72081/) | securelist.com
 - [How I hacked medium and they didn’t pay me](https://scribe.rip/@super_burgundy_weasel_439/how-i-hacked-medium-and-they-didnt-pay-me-f6c89cca3af7) | medium.com | scribe.rip
+- [QUIC action: patching a broadcast address amplification vulnerability](https://blog.cloudflare.com/mitigating-broadcast-address-attack/) | cloudflare.com
+- [Reflections on reflection (attacks)](https://blog.cloudflare.com/reflections-on-reflections/) | cloudflare.com
 
 ## Free and Open Source
-- https://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html
+- [The Case for Free Online Books](https://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html) | blogspot.com
+- [The GNU Philosophy: Words to Avoid](https://www.gnu.org/philosophy/words-to-avoid.en.html) | gnu.org
 
 ## Tech News & Other Blogs
 - [Microsoft engineer reveals more details about Janet Jackson song that used to mysteriously crash Windows XP PCs](https://www.xda-developers.com/microsoft-engineer-janet-jackson-song-mysteriously-crash-windows-xp/) | xda-developers.com
@@ -56,7 +78,13 @@
 ## Reference Books
 - [The RISC-V Reader: An Open Architecture Atlas](http://www.riscvbook.com/) | riscvbook.com
 
-# ARTICLES, DOCS AND RESOURCES
+## Psychology
+- [Thinking, Fast and Slow - Daniel Kahneman](https://wikipedia.org/wiki/Thinking,_Fast_and_Slow) | wikipedia.org
+
+## Mixed Bag
+- [Gödel, Escher, Bach: an Eternal Golden Braid](https://archive.org/details/douglas-hofstadter-godel-escher-bach-an-eternal-golden-braid) | archive.org
+
+# DOCS AND RESOURCES
 
 ## Linux
 - [Linux - Tracing, Monitoring and Debugging (STM32)](https://wiki.st.com/stm32mpu/wiki/Linux_tracing,_monitoring_and_debugging) | wiki.st.com
@@ -82,15 +110,24 @@
 ## Development Environments
 - [Language Server Protocol](https://microsoft.github.io/language-server-protocol) | github.io
 
+## Programming Principles
+- [Refactoring Guru](https://refactoring.guru/) | refactoring.guru
+
 # RESEARCH PAPERS
 
-## Artificial Intelligence
+## Artificial Intelligence and Machine Learning
 - [ChatGPT is Bullshit](https://link.springer.com/article/10.1007/s10676-024-09775-5) | springer.com
 - [Cut The Crap: A critical response to "ChatGPT is Bullshit"](https://link.springer.com/article/10.1007/s10676-025-09828-3) | springer.com
 - [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) | arxiv.org
 
 ## Systems
 - [Simultaneous and Heterogenous Multithreading](https://dl.acm.org/doi/fullHtml/10.1145/3613424.3614285) | acm.org
+
+## Hardware
+- [Content-Addressable Memory (CAM) Circuits and Architectures: A Tutorial and Survey](https://www.pagiamtzis.com/pubs/pagiamtzis-jssc2006.pdf) | pagiamtzis.com
+
+# Theoretical Computer Science
+- [Algorithms with Predictions - Mitzenmacher, Vassilvitskii](https://arxiv.org/abs/2006.09123) | arxiv.org
 
 # TOOLS
 - [Browser Support Tables](https://caniuse.com/) | caniuse.com
@@ -102,18 +139,8 @@
   - [ASCII Tree Generator](https://ascii-tree-generator.com/) 
 - [Shizuku - Android](https://shizuku.rikka.app/)
 - [Alt App Installer - Windows](https://github.com/mjishnu/alt-app-installer)
--
 
 # OTHER COOL STUFF
-
-## Free and Open Source
-- [The GNU Philosophy: Words to Avoid](https://www.gnu.org/philosophy/words-to-avoid.en.html) | gnu.org
-
-## Computing
-- [The History of Computing](https://wikipedia.org/wiki/History_of_computing) | wikipedia.org
-- Mechanical Machines
-  - [Mechanical Adder](https://leoctai.com/mechanicalAdder/index.html) | leoctai.com
-  - [How Calculating Machines Worked](https://www.hpmuseum.org/mechwork.htm) | hpmuseum.org
   
 ## More Links
 - [Pixelated Pathways](https://pixelated-pathways.neocities.org) | neocities.org
