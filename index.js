@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', scrollColors);
 
 
 // Defines the particle number
-const numFireworkParticles = 50;
+const numFireworkParticles = 20;
 
 function createParticle(x, y) {
     const snowflakeFireworkParticle = document.createElement("div");
@@ -133,7 +133,7 @@ function createParticle(x, y) {
     snowflakeFireworkParticle.style.top = `${y}px`;
 
     // Add random size for variety
-    const size = Math.random() * 5 + 4;
+    const size = Math.random() * 10 + 4;
     snowflakeFireworkParticle.style.width = `${size}px`;
     snowflakeFireworkParticle.style.height = `${size}px`;
 
