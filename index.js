@@ -1,5 +1,9 @@
-let isSnowfallEnabled = true; // Set to true to enable snowfall, false to disable
+//Custom sleep function
+const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 
+let isSnowfallEnabled = false; // Set to true to enable snowfall, false to disable
+
+// Function to create a snowflake at specified coordinates
 function createSnowflake(x, y) {
     if (!isSnowfallEnabled) return; // Exit if snowfall is disabled
 
@@ -26,22 +30,24 @@ function createSnowflake(x, y) {
     }, 3000);
 }
 
+// Create snowflakes on mouse movement
 document.addEventListener("mousemove", (event) => {
     createSnowflake(event.clientX, event.clientY);
 });
 
+// Track touch events for mobile devices
 let isTouching = false; // Flag to track if the user is touching the screen
 
 document.addEventListener("touchstart", (event) => {
     isTouching = true; // Set the flag to true when touch starts
     const touch = event.touches[0];
-    createSnowflake(touch.clientX, touch.clientY); // Create firework at the touch point
+    createSnowflake(touch.clientX, touch.clientY); // Create snowflake at the touch point
 });
 
 document.addEventListener("touchmove", (event) => {
     if (isTouching) {
         const touch = event.touches[0];
-        createSnowflake(touch.clientX, touch.clientY); // Create firework as the finger moves
+        createSnowflake(touch.clientX, touch.clientY); // Create snowflake as the finger moves
     }
 });
 
@@ -49,82 +55,67 @@ document.addEventListener("touchend", () => {
     isTouching = false; // Reset the flag when touch ends
 });
 
-
-
-
-
+// Function to toggle snowfall on and off
 function toggleSnowfall() {
     isSnowfallEnabled = !isSnowfallEnabled; // Toggle the variable
     const button = document.getElementById('snowflakeButton');
     const img = button.querySelector('img');
-    if (isSnowfallEnabled) {
-        img.style.animation = "rotate 5s linear infinite"; // Stop animation
-    } else {
-        img.style.animation = "none"; // Start animation
-    }
+    img.style.animation = isSnowfallEnabled ? "rotate 5s linear infinite" : "none"; // Start or stop animation
 }
 
+let colorChangeInterval = 500; // Initial interval for color changes
+let textFlashToggle = false; // Toggle for black and white text
+let offset = 0; // Offset for color cycling
 
-let colorChangeInterval = 500;
-let offset = 0;
+// Function to scroll colors in the title
+async function scrollColors() {
+    const titleElement = document.getElementById('titleMainPage');
 
-function scrollColors() {
-    const element = document.getElementById('titleMainPage');
-    const text = element.textContent; // Get the original text
-    const colors = ['#FF0000', '#FF7F00', '#FFFF00', '#7FFF00', '#00FF00', '#00FF7F', '#00FFFF', '#007FFF', '#0000FF', '#7F00FF', '#FF00FF', '#FF007F'];  // different colors
+    const text = titleElement.textContent; // Get the original text
+    const coloredText = text.split('').map((char, index) => {
+        return `<span>${char}</span>`;
+    }).join('');
+
+    titleElement.innerHTML = coloredText; // Set the innerHTML to the colored text
+
+    const spans = titleElement.querySelectorAll('span');
     // const colors = ['#FF0000', '#FF7F00', '#FFFF00', '#7FFF00', '#00FF00', '#00FFFF'];  // 6 different colors
     // const colors = ['#FF0000', '#7F7F00', '#00FF00', '#007F7F', '#0000FF', '#7F007F'];  // 6 different colors
+    const colors = ['#FF0000', '#FF7F00', '#FFFF00', '#7FFF00', '#00FF00', '#00FF7F', '#00FFFF', '#007FFF', '#0000FF', '#7F00FF', '#FF00FF', '#FF007F']; // Different colors
 
-    function changeColors() {
-        if (colorChangeInterval === 20000) {
+    // Change colors
+    while (1) {
+        if (textFlashToggle) {
             for (let count = 0; count < 12; count++) {
-                setTimeout(() => {
-                    let flashingText = text.split('').map((char, index) => {
-                    let color;
-                    if (count % 2 === 0) { // Check if count is even
-                        if (index % 2 === 0) { // Check if index is even
-                            color = 'black'; // Set color to black for even index
-                        } else {
-                            color = 'white'; // Set color to white for odd index
-                        }
-                    } else { // If count is odd
-                        if (index % 2 === 0) { // Check if index is even
-                            color = 'white'; // Set color to white for even index
-                        } else {
-                            color = 'black'; // Set color to black for odd index
-                        }
-                    }
-
-                    return `<span style="color: ${color};">${char}</span>`;
-                    }).join('');
-                    element.innerHTML = flashingText; // Update the element with the new colored text
-                }, count * 250); // Delay for each iteration
+                spans.forEach((span, index) => {
+                    // Alternate colors based on index and count
+                    let color = (count % 2 === 0) ? (index % 2 === 0 ? 'black' : 'white') : (index % 2 === 0 ? 'white' : 'black');
+                    span.style.color = color; // Update the color of the existing span
+                });
+                await sleep(250);
             }
 
-            colorChangeInterval = 500;
-            setTimeout(changeColors, 6 * 500);
+            colorChangeInterval = 500; // Reset interval
+            textFlashToggle = false; // Reset toggle
         } else {
-            const coloredText = text.split('').map((char, index) => {
-                offset = (offset + 1) % colors.length;
-                const color = colors[(index + offset) % colors.length];
-                return `<span style="color: ${color};">${char}</span>`;
-            }).join('');
+            spans.forEach((span, index) => {
+                offset = (offset + 1) % colors.length; // Update offset for cycling colors
+                const color = colors[(index + offset) % colors.length]; // Get color based on index and offset
+                span.style.color = color; // Update the color of the existing span
+            });
 
-            element.innerHTML = coloredText; // Set the innerHTML to the colored text
-            setTimeout(changeColors, colorChangeInterval); // Call changeColors again after the current interval
+            await sleep(colorChangeInterval);
         }
     }
-
-    changeColors(); // Start the color changing process
 }
 
 // Call the function when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', scrollColors);
 
-
-// Defines the particle number
+// Defines the particle number for fireworks
 const numFireworkParticles = 20;
 
+// Function to create a particle for fireworks effect
 function createParticle(x, y) {
     const snowflakeFireworkParticle = document.createElement("div");
 
@@ -169,10 +160,17 @@ function createParticle(x, y) {
     animation.finished.then(() => snowflakeFireworkParticle.remove());
 }
 
+// Add click event listener to the title for fireworks effect
 document.addEventListener('DOMContentLoaded', function() {
     let titleMainPage = document.getElementById('titleMainPage');
 
     titleMainPage.addEventListener('click', function() {
+        if(textFlashToggle) {
+            console.log("L-L-L-Lava, Ch-Ch-Ch-Chicken!");
+            return;
+        }
+
+        // Adjust color change interval based on clicks
         if (colorChangeInterval > 100) {
             colorChangeInterval -= 100;
         } else if (colorChangeInterval > 50) {
@@ -180,19 +178,20 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (colorChangeInterval > 20) {
             colorChangeInterval = 20;
         } else if (colorChangeInterval === 20) {
-            colorChangeInterval = 20000;
-            const rect = titleMainPage.getBoundingClientRect();
+            textFlashToggle = true; // Reset to longer interval
+            const rect = titleMainPage.getBoundingClientRect(); // Get the position of the title
 
-            const delay = 300; // Delay in milliseconds
+            const delay = 300; // Delay in milliseconds for fireworks
             const numSets = 8; // Specify how many times to call the loop
             let currentSet = 0; // Track the current set
 
-            // Define the grid
+            // Define the grid for fireworks positions
             const gridX = [0.25, 0.375, 0.5, 0.625, 0.75]; // X factors
             const gridY = [-1, -0.5, 0, 0.5, 1]; // Y factors
-            let lastXIndex = -1;
-            let lastYIndex = -1;
+            let lastXIndex = -1; // Track last used X index
+            let lastYIndex = -1; // Track last used Y index
 
+            // Function to create fireworks
             function createFireworks() {
                 if (currentSet < numSets) {
                     let xIndex, yIndex;
@@ -212,6 +211,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const x = rect.left + rect.width * gridX[xIndex]; // Calculate x using selected grid factor
                     const y = rect.top + rect.height * gridY[yIndex]; // Calculate y using selected grid factor
 
+                    // Create multiple particles for the fireworks effect
                     for (let j = 0; j < numFireworkParticles; j++) {
                         createParticle(x, y);
                     }
