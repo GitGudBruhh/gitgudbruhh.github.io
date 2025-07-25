@@ -126,7 +126,7 @@
 ## Hardware
 - [Content-Addressable Memory (CAM) Circuits and Architectures: A Tutorial and Survey](https://www.pagiamtzis.com/pubs/pagiamtzis-jssc2006.pdf) | pagiamtzis.com
 
-# Theoretical Computer Science
+## Theoretical Computer Science
 - [Algorithms with Predictions - Mitzenmacher, Vassilvitskii](https://arxiv.org/abs/2006.09123) | arxiv.org
 
 # TOOLS
@@ -154,7 +154,7 @@
 - [PWNable](https://pwnable.kr) | pwnable.kr
 
 
-# QUESTIONS (STACKOVERFLOW/REDDIT/...)
+# FORUM QUESTIONS
 
 - [What's the Time Complexity of Average Regex Algorithms](https://stackoverflow.com/questions/5892115/whats-the-time-complexity-of-average-regex-algorithms) | stackoverflow.com
 - [How does grep run so fast?](https://stackoverflow.com/questions/12629749/how-does-grep-run-so-fast) | stackoverflow.com
