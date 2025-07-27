@@ -60,6 +60,18 @@ footer {
     filter: blur(2px);
 }
 
+.falling-text {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    pointer-events: none;
+    animation: fall 1s linear infinite;
+    z-index: 9;
+    font-family: 'VT323';
+    font-weight: bold;
+    font-size: 20px;
+}
+
 @keyframes fall {
   to {
     transform: translateY(100vh);
