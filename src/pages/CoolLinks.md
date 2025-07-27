@@ -36,6 +36,7 @@
   - [Reucrsion in Lambda Calculus: The Y Combinator](https://thealmarty.com/2018/08/13/recursion-in-lambda-calculus-the-y-combinator/) | thealmarty.com
   - [The Y-Combinator (no, not that one)](https://scribe.rip/@ayanonagon/the-y-combinator-no-not-that-one-7268d8d9c46) | medium.com | scribe.rip
 - [Algorithms with Predictions](https://algorithms-with-predictions.github.io) | github.io
+- [Satisfiability Modulo Theories](https://wikipedia.org/wiki/Satisfiability_modulo_theories) | wikipedia.org
 
 ## Artificial Intelligence and Machine Learning
 - [The Copilot Delusion](https://deplet.ing/the-copilot-delusion/) | deplet.ing
@@ -67,16 +68,22 @@
 
 ## Tech News & Other Blogs
 - [Microsoft engineer reveals more details about Janet Jackson song that used to mysteriously crash Windows XP PCs](https://www.xda-developers.com/microsoft-engineer-janet-jackson-song-mysteriously-crash-windows-xp/) | xda-developers.com
+- [Linux Weekly News - LWN.net](https://lwn.net/) | lwn.net
 
 # BOOKS
+* Wondering how to get books online? [These sites](https://fmhy.net/storage#libgen-mirrors) might be useful.
 
 ## Texts
 - [MIT OCW - Principles of Computer System Design](https://ocw.mit.edu/courses/res-6-004-principles-of-computer-system-design-an-introduction-spring-2009/pages/online-textbook/) | ocw.mit.edu
 - [Dive Into Systems](https://diveintosystems.org) | diveintosystems.org
 - [Three Easy Pieces - Operating Systems](https://pages.cs.wisc.edu/~remzi/OSTEP/) | wisc.edu
 
+## Non-Fiction
+- [Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers](https://openlibrary.org/books/OL29815270M/Sandworm) | openlibrary.org
+
 ## Reference Books
 - [The RISC-V Reader: An Open Architecture Atlas](http://www.riscvbook.com/) | riscvbook.com
+- [Linux Device Drivers - Third Edition](https://lwn.net/Kernel/LDD3/) | lwn.net
 
 ## Psychology
 - [Thinking, Fast and Slow - Daniel Kahneman](https://wikipedia.org/wiki/Thinking,_Fast_and_Slow) | wikipedia.org
@@ -86,6 +93,9 @@
 
 # DOCS AND RESOURCES
 
+## Courses
+- [CS 6846: Quantum Algorithms and Cryptography - Shweta Agrawal](https://www.cse.iitm.ac.in/~shwetaag/CS6846.html) | iitm.ac.in
+
 ## Linux
 - [Linux - Tracing, Monitoring and Debugging (STM32)](https://wiki.st.com/stm32mpu/wiki/Linux_tracing,_monitoring_and_debugging) | wiki.st.com
 - USENIX Publications: The `;login:` magazine:
@@ -94,8 +104,20 @@
 
 ## Security
 - [OWASP Community Pages](https://owasp.org/www-community/) | owasp.org
-- [Symmetric Cryptogrphy Essential Training](https://github.com/LinkedInLearning/symmetric-cryptography-essential-training-4554207) | github.com
+- [Symmetric Cryptography Essential Training](https://github.com/LinkedInLearning/symmetric-cryptography-essential-training-4554207) | github.com
 - [MobSF: Open-source security research platform for mobile apps](https://www.helpnetsecurity.com/2024/03/14/mobsf-open-source-mobile-security-framework/) | helpnetsecurity.com
+- OT/ICS Security
+  - [Inst Tools | Electrical & Instrumentation Tutorials | PLC](https://instrumentationtools.com/) | instrumentationtools.com
+  - [Online Industrial Automation & Engineering Courses | RealPars](https://www.realpars.com/) | realpars.com
+  - [IEC 62443](https://wikipedia.org/wiki/IEC_62443) | wikipedia.org
+  - [Mike Holcomb - Github](https://github.com/utilsec/) | github.com
+  - PLCs
+    - [PLC Ladder Logic Programming Tutorial (Basics)](https://www.plcacademy.com/ladder-logic-tutorial/) | plcacademy.com
+    - [Online PLC Ladder Simulator](https://app.plcsimulator.online/) | plcsimulator.online
+    - [Free Online PLC Training from AutomationDirect](https://www.automationdirect.com/programmable-logic-controllers/plc-training) | automationdirect.com
+- Verizon DBIR Reports
+  - [Data Breach Investigations Report](https://www.verizon.com/business/resources/reports/dbir/) | verzion.com
+  - Scroll down and click on "View Complete Archive to get the full list"
 
 ## RISC-V
 - [Getting Started with RISC-V](https://github.com/LinkedInLearning/getting-started-with-risc-v-4498073/) | github.com
@@ -114,6 +136,7 @@
 - [Refactoring Guru](https://refactoring.guru/) | refactoring.guru
 
 # RESEARCH PAPERS
+* Wondering how to get papers online? [These sites](https://fmhy.net/readingpiracyguide#academic-papers) might be useful.
 
 ## Artificial Intelligence and Machine Learning
 - [ChatGPT is Bullshit](https://link.springer.com/article/10.1007/s10676-024-09775-5) | springer.com
@@ -128,6 +151,8 @@
 
 ## Theoretical Computer Science
 - [Algorithms with Predictions - Mitzenmacher, Vassilvitskii](https://arxiv.org/abs/2006.09123) | arxiv.org
+- [An Axiomatic Basis for Computer Programming - C. A. R. Hoare](https://dl.acm.org/doi/10.1145/363235.363259) | acm.org
+- [Assigning Meanings to Programs - Robert W. Floyd](https://www.cs.tau.ac.il/~nachumd/term/FloydMeaning.pdf) | tau.ac.il | springer.com
 
 # TOOLS
 - [Browser Support Tables](https://caniuse.com/) | caniuse.com
@@ -139,6 +164,14 @@
   - [ASCII Tree Generator](https://ascii-tree-generator.com/) 
 - [Shizuku - Android](https://shizuku.rikka.app/)
 - [Alt App Installer - Windows](https://github.com/mjishnu/alt-app-installer)
+- [Netron - Neural Network Visualizer](https://netron.app/) | netron.app
+
+# FORUM QUESTIONS
+
+- [What's the Time Complexity of Average Regex Algorithms](https://stackoverflow.com/questions/5892115/whats-the-time-complexity-of-average-regex-algorithms) | stackoverflow.com
+- [How does grep run so fast?](https://stackoverflow.com/questions/12629749/how-does-grep-run-so-fast) | stackoverflow.com
+- [Variable declarations after goto labels](https://stackoverflow.com/questions/18496282/why-do-i-get-a-label-can-only-be-part-of-a-statement-and-a-declaration-is-not-a) | stackoverflow.com
+- [Accessibility Service via ADB](https://stackoverflow.com/questions/63066398/i-need-an-adb-command-to-enable-an-android-accesibility-option) | stackoverflow.com
 
 # OTHER COOL STUFF
   
@@ -152,11 +185,4 @@
 
 ## Games
 - [PWNable](https://pwnable.kr) | pwnable.kr
-
-
-# FORUM QUESTIONS
-
-- [What's the Time Complexity of Average Regex Algorithms](https://stackoverflow.com/questions/5892115/whats-the-time-complexity-of-average-regex-algorithms) | stackoverflow.com
-- [How does grep run so fast?](https://stackoverflow.com/questions/12629749/how-does-grep-run-so-fast) | stackoverflow.com
-- [Variable declarations after goto labels](https://stackoverflow.com/questions/18496282/why-do-i-get-a-label-can-only-be-part-of-a-statement-and-a-declaration-is-not-a) | stackoverflow.com
-- [Accessibility Service via ADB](https://stackoverflow.com/questions/63066398/i-need-an-adb-command-to-enable-an-android-accesibility-option) | stackoverflow.com
+- [Backdoors & Breaches, an Incident Response Card Game](https://play.backdoorsandbreaches.com/) | backdoorsandbreaches.com
