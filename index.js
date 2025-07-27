@@ -98,8 +98,8 @@ async function scrollColors() {
             colorChangeInterval = 500; // Reset interval
             textFlashToggle = false; // Reset toggle
         } else {
+            offset = (offset + 1) % colors.length; // Update offset for cycling colors
             spans.forEach((span, index) => {
-                offset = (offset + 1) % colors.length; // Update offset for cycling colors
                 const color = colors[(index + offset) % colors.length]; // Get color based on index and offset
                 span.style.color = color; // Update the color of the existing span
             });
@@ -160,15 +160,40 @@ function createParticle(x, y) {
     animation.finished.then(() => snowflakeFireworkParticle.remove());
 }
 
+// Function to create a snowflake at specified coordinates
+function createFallingText(x, y) {
+    const fallingText = document.createElement("div");
+    fallingText.innerHTML = "CLICK!"
+    fallingText.className = "falling-text";
+    fallingText.style.left = `${x}px`;
+    fallingText.style.top = `${y}px`;
+
+    // Add random size and speed for variety
+    fallingText.style.animationDuration = `${(Math.random() - 0.5) * 10 + 10}s`;
+
+    // Generate a random color
+    const randomColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+    fallingText.style.color = randomColor;
+
+    document.body.appendChild(fallingText);
+
+    // Remove the fallingText after it falls
+    setTimeout(() => {
+        fallingText.remove();
+    }, 1000);
+}
+
 // Add click event listener to the title for fireworks effect
 document.addEventListener('DOMContentLoaded', function() {
     let titleMainPage = document.getElementById('titleMainPage');
 
-    titleMainPage.addEventListener('click', function() {
+    titleMainPage.addEventListener('click', function(event) {
         if(textFlashToggle) {
             console.log("L-L-L-Lava, Ch-Ch-Ch-Chicken!");
             return;
         }
+
+        createFallingText(event.clientX, event.clientY);
 
         // Adjust color change interval based on clicks
         if (colorChangeInterval > 100) {
