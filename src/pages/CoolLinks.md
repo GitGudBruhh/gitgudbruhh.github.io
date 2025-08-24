@@ -37,6 +37,7 @@
   - [The Y-Combinator (no, not that one)](https://scribe.rip/@ayanonagon/the-y-combinator-no-not-that-one-7268d8d9c46) | medium.com | scribe.rip
 - [Algorithms with Predictions](https://algorithms-with-predictions.github.io) | github.io
 - [Satisfiability Modulo Theories](https://wikipedia.org/wiki/Satisfiability_modulo_theories) | wikipedia.org
+- [Cyclomatic Complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) | wikipedia.org
 
 ## Artificial Intelligence and Machine Learning
 - [The Copilot Delusion](https://deplet.ing/the-copilot-delusion/) | deplet.ing
@@ -46,9 +47,13 @@
 - [Playing with MutationObserver in Javascript](https://www.bennadel.com/blog/4627-playing-with-mutationobserver-in-javascript.htm) | bennadel.com
 - [How well do you know JavaScript's Date class?](https://jsdate.wtf) | jsdate.wtf
 
+## Programming
+- [Bypassing the GIL for Parallel Processing in Python](realpython.com/python-parallel-processing/) | realpython.com
+- [Copy Elision in C++](https://www.geeksforgeeks.org/cpp/copy-elision-in-cpp/) | geeksforgeeks.org
+
 ## Development Environments
 - [How I Use the Kate Editor](https://akselmo.dev/posts/how-i-use-kate-editor/) | akselmo.dev
-- [codeberg.org/...](https://codeberg.org/akselmo/dotfiles/src/branch/main/kate/debugger/dap.json) | codeberg.org
+  - [dotfiles for Kate](https://codeberg.org/akselmo/dotfiles/src/branch/main/kate) | codeberg.org
 
 ## Networking
 - [Even faster connection establishment with QUIC 0-RTT resumption](https://blog.cloudflare.com/even-faster-connection-establishment-with-quic-0-rtt-resumption/) | cloudflare.com
@@ -61,6 +66,8 @@
 - [How I hacked medium and they didn’t pay me](https://scribe.rip/@super_burgundy_weasel_439/how-i-hacked-medium-and-they-didnt-pay-me-f6c89cca3af7) | medium.com | scribe.rip
 - [QUIC action: patching a broadcast address amplification vulnerability](https://blog.cloudflare.com/mitigating-broadcast-address-attack/) | cloudflare.com
 - [Reflections on reflection (attacks)](https://blog.cloudflare.com/reflections-on-reflections/) | cloudflare.com
+- [How did AMD's secure enclave get hacked?](https://www.zach.be/p/how-did-amds-secure-enclave-get-hacked) | zach.be
+- [Packers, How They Work, Featuring UPX](https://dzone.com/articles/packers-how-they-work-featuring-upx) | dzone.com
 
 ## Free and Open Source
 - [The Case for Free Online Books](https://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html) | blogspot.com
@@ -111,13 +118,14 @@
   - [Online Industrial Automation & Engineering Courses | RealPars](https://www.realpars.com/) | realpars.com
   - [IEC 62443](https://wikipedia.org/wiki/IEC_62443) | wikipedia.org
   - [Mike Holcomb - Github](https://github.com/utilsec/) | github.com
+  - [Fortiphyd Logic Inc - OT security with OT logic](https://github.com/Fortiphyd)
   - PLCs
     - [PLC Ladder Logic Programming Tutorial (Basics)](https://www.plcacademy.com/ladder-logic-tutorial/) | plcacademy.com
     - [Online PLC Ladder Simulator](https://app.plcsimulator.online/) | plcsimulator.online
     - [Free Online PLC Training from AutomationDirect](https://www.automationdirect.com/programmable-logic-controllers/plc-training) | automationdirect.com
 - Verizon DBIR Reports
   - [Data Breach Investigations Report](https://www.verizon.com/business/resources/reports/dbir/) | verzion.com
-  - Scroll down and click on "View Complete Archive to get the full list"
+  - Scroll down and click on "View Complete Archive" to get the full list
 
 ## RISC-V
 - [Getting Started with RISC-V](https://github.com/LinkedInLearning/getting-started-with-risc-v-4498073/) | github.com
@@ -148,6 +156,7 @@
 
 ## Hardware
 - [Content-Addressable Memory (CAM) Circuits and Architectures: A Tutorial and Survey](https://www.pagiamtzis.com/pubs/pagiamtzis-jssc2006.pdf) | pagiamtzis.com
+- [faulTPM: Exposing AMD fTPMs' Deepest Secrets](https://arxiv.org/abs/2304.14717) | arxiv.org
 
 ## Theoretical Computer Science
 - [Algorithms with Predictions - Mitzenmacher, Vassilvitskii](https://arxiv.org/abs/2006.09123) | arxiv.org
@@ -172,6 +181,12 @@
 - [How does grep run so fast?](https://stackoverflow.com/questions/12629749/how-does-grep-run-so-fast) | stackoverflow.com
 - [Variable declarations after goto labels](https://stackoverflow.com/questions/18496282/why-do-i-get-a-label-can-only-be-part-of-a-statement-and-a-declaration-is-not-a) | stackoverflow.com
 - [Accessibility Service via ADB](https://stackoverflow.com/questions/63066398/i-need-an-adb-command-to-enable-an-android-accesibility-option) | stackoverflow.com
+
+# VIDEOS
+
+## Programming
+- [Challenges and Benerfits of Upgrading Sea of Thieves From C++14 to C++20 - Keith Stockdale ACCU 2025](https://www.youtube.com/watch?v=Nm9-xKsZoNI) | youtu.be
+
 
 # OTHER COOL STUFF
   
