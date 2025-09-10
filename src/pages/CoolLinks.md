@@ -4,11 +4,14 @@
 - [Can You Trust a Compiler to Optimize Your Code?](https://matklad.github.io/2023/04/09/can-you-trust-a-compiler-to-optimize-your-code.html) | matklad.github.io
 - [A Bug Story: Data Alignment on x86](https://pzemtsov.github.io/2016/11/06/bug-story-alignment-on-x86.html) | pzemtsov.github.io
 - [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) | swtch.com
+- [Managing Compiler Errata](https://embedded.com/managing-compiler-errata) | embedded.com
+- [From Source Code to Binary](https://compilersutra.com/docs/compilers/sourcecode_to_executable) | compilersutra.com
 
 ## Programming Principles
 - [Why Your Code Isn't as Readable as You Think It Is](https://hemaks.org/posts/why-your-code-isnt-as-readable-as-you-think-it-is/) | hemaks.org
 - [A Process for Readable Code](https://jaidevd.com/posts/code-readability-process/) | jaidevd.com
 - [The Errors of Tex: Donald Knuth](https://yurichev.com/mirrors/knuth1989.pdf) | yurichev.com
+- [Unicode & Character Sets: Essential Knowledge Every Developer Needs](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) | joeelonsoftware.com
 
 ## Computer Systems Design
 - [Six Principles of System Design](https://www.intercom.com/blog/six-principles-of-system-design/) | intercom.com
@@ -50,6 +53,7 @@
 ## Programming
 - [Bypassing the GIL for Parallel Processing in Python](realpython.com/python-parallel-processing/) | realpython.com
 - [Copy Elision in C++](https://www.geeksforgeeks.org/cpp/copy-elision-in-cpp/) | geeksforgeeks.org
+- [Coding in C for MCUs: Sort Structs to Save Code Size](https://shincbm.com/embedded/2022/02/18/struct-layout-code-size.html) | shincbm.com
 
 ## Development Environments
 - [How I Use the Kate Editor](https://akselmo.dev/posts/how-i-use-kate-editor/) | akselmo.dev
@@ -76,6 +80,8 @@
 ## Tech News & Other Blogs
 - [Microsoft engineer reveals more details about Janet Jackson song that used to mysteriously crash Windows XP PCs](https://www.xda-developers.com/microsoft-engineer-janet-jackson-song-mysteriously-crash-windows-xp/) | xda-developers.com
 - [Linux Weekly News - LWN.net](https://lwn.net/) | lwn.net
+- [Linux Kernel Runtime Guard 1.0 Released for Security Vulnerability Exploit Detection](https://phoronix.com/news/LKRG-1.0-Released) | phoronix.com
+- [Linux Kernel Netfilter Vulnerability Let Attackers Escalate Priveleges](https://cybersecuritynews.com/linux-kernel-netfilter-vulnerability) | cybersecuritynews.com
 
 # BOOKS
 * Wondering how to get books online? [These sites](https://fmhy.net/storage#libgen-mirrors) might be useful.
@@ -185,11 +191,13 @@
 # VIDEOS
 
 ## Programming
-- [Challenges and Benerfits of Upgrading Sea of Thieves From C++14 to C++20 - Keith Stockdale ACCU 2025](https://www.youtube.com/watch?v=Nm9-xKsZoNI) | youtu.be
+- [Challenges and Benerfits of Upgrading Sea of Thieves From C++14 to C++20 - Keith Stockdale ACCU 2025](https://youtube.com/watch?v=Nm9-xKsZoNI) | youtube.com
 
+## Compilers
+- ["Vellvm - Verifying the LLVM" by Steve Zdancewic](https://youtube.com/watch?v=q6gSC3OxB_8) | youtube.com
 
 # OTHER COOL STUFF
-  
+
 ## More Links
 - [Pixelated Pathways](https://pixelated-pathways.neocities.org) | neocities.org
 - [Things of Interest](https://qntm.org) | qntm.org
@@ -201,3 +209,4 @@
 ## Games
 - [PWNable](https://pwnable.kr) | pwnable.kr
 - [Backdoors & Breaches, an Incident Response Card Game](https://play.backdoorsandbreaches.com/) | backdoorsandbreaches.com
+- [SQL Murder Mystery](https://mystery.knightlab.com) | knightlab.com
