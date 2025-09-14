@@ -164,6 +164,10 @@
 - [Content-Addressable Memory (CAM) Circuits and Architectures: A Tutorial and Survey](https://www.pagiamtzis.com/pubs/pagiamtzis-jssc2006.pdf) | pagiamtzis.com
 - [faulTPM: Exposing AMD fTPMs' Deepest Secrets](https://arxiv.org/abs/2304.14717) | arxiv.org
 
+## Security
+- [RAPTOR: Routing Attacks on Privacy in Tor](https://arxiv.org/abs/1503.03940) | arxiv.org
+- [Counter-RAPTOR: Safeguuarding Tor Against Active Routing Attacks](https://arxiv.org/abs/1704.00843v2) | arxiv.org
+
 ## Theoretical Computer Science
 - [Algorithms with Predictions - Mitzenmacher, Vassilvitskii](https://arxiv.org/abs/2006.09123) | arxiv.org
 - [An Axiomatic Basis for Computer Programming - C. A. R. Hoare](https://dl.acm.org/doi/10.1145/363235.363259) | acm.org
