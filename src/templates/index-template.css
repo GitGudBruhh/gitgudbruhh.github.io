@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('./public/fonts/press_start_2p/PressStart2P.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VT323';
+    src: url('./public/fonts/vt323/VT323-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.unselectable {
+    user-select: none; /* For modern browsers */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+body {
+    color: #fff;
+    background-color: #000;
+}
+
+navbar {
+
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.page-content {
+    flex: 1;
+}
+
+.snowflake {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: fall 3s linear infinite;
+    z-index: 9;
+    filter: blur(2px);
+}
+
+.falling-text {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    pointer-events: none;
+    animation: fall 1s linear infinite;
+    z-index: 9;
+    font-family: 'VT323';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.rotating-image {
+    /* animation: rotate 5s linear infinite; */
+    animation: none;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.gradient-navbar {
+    background: linear-gradient(to right, #000050, #007eca); /* Default for small screens */
+    font-family: 'Press Start 2P';
+}
+
+@media (min-width: 768px) {
+    .gradient-navbar {
+        background: linear-gradient(to right, #000050, #000050, #007eca); /* For larger screens */
+        font-family: 'Press Start 2P';
+    }
+}
+
+.gradient-footer {
+    background: linear-gradient(to right, #222222, #777777); /* Default for small screens */
+    font-family: 'Press Start 2P';
+    color: 'yellow';
+}
+
+@media (min-width: 768px) {
+    .gradient-footer {
+        background: linear-gradient(to right, #222222, #222222, #777777); /* For larger screens */
+        font-family: 'Press Start 2P';
+        color: 'yellow';
+    }
+}
