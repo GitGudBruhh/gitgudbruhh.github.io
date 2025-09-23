@@ -1,1 +1,0 @@
-python scripts/md2html-replacer.py --md-file public/docs/CoolLinks.md --output-file pages/cool-links.html --template-file src/templates/cool-links-template.html --backup-folder ignore/md2html-backups/
