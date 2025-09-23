@@ -1,11 +1,17 @@
 import os
 
 files_to_replace = [
+    './src/templates/rendered/index.html',
     './src/templates/rendered/cool-links.html',
     './src/templates/rendered/games.html',
 ]
 
 paths = [
+    (
+        'FAVICON_ICO',
+        './public/images/favicon.ico',
+        './public/images/favicon.ico'
+    ),
     (
         'INDEX_HTML',
         './src/templates/rendered/index.html',
@@ -91,6 +97,7 @@ def main():
             if src == f_path:
                 with open(dst, 'w', encoding='utf-8') as f:
                     f.write(content)
+                    print(f_path)
 
 if __name__ == '__main__':
     main()

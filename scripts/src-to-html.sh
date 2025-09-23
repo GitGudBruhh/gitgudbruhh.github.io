@@ -42,4 +42,4 @@ done
 python scripts/rendered-path-replacer.py
 
 # Cleanup
-rm src/templates/rendered/*
+# rm src/templates/rendered/*
