@@ -54,6 +54,8 @@
 - [Bypassing the GIL for Parallel Processing in Python](realpython.com/python-parallel-processing/) | realpython.com
 - [Copy Elision in C++](https://www.geeksforgeeks.org/cpp/copy-elision-in-cpp/) | geeksforgeeks.org
 - [Coding in C for MCUs: Sort Structs to Save Code Size](https://shincbm.com/embedded/2022/02/18/struct-layout-code-size.html) | shincbm.com
+- [Structures in C: From Basics to Memory Alignment](https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/) | abstractexpr.com
+- [Unpacking Tuples in C++14: Andreas Herrmann](https://aherrmann.github.io/programming/2016/02/28/unpacking-tuples-in-cpp14/) | aherrmann.github.io
 
 ## Development Environments
 - [How I Use the Kate Editor](https://akselmo.dev/posts/how-i-use-kate-editor/) | akselmo.dev
@@ -209,6 +211,7 @@
 - Eric S. Raymond
   - [Home Page](http://www.catb.org/)
   - [The Jargon File](http://www.catb.org/jargon/html)
+- [Vaporwave Archives](https://vaporarchive.neocities.org/) | neocities.org
 
 ## Games
 - [PWNable](https://pwnable.kr) | pwnable.kr

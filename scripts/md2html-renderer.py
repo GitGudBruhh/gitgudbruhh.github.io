@@ -30,7 +30,7 @@ def md_to_html(md_file):
 def replace_template(template_file, content):
     with open(template_file, 'r', encoding='utf-8') as f:
         template_content = f.read()
-    return template_content.replace("<!-- REPLACEME -->", content)
+    return template_content.replace("<!-- REPLACEME-COOL-LINKS -->", content)
 
 def main():
     parser = argparse.ArgumentParser(
