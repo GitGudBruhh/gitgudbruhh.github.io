@@ -25,6 +25,26 @@
   - [Tiny Linux on a NoMMU RISC-V Controller](https://hackaday.com/2023/10/11/tiny-linux-on-a-no-mmu-risc-v-microcontroller/) | hackaday.com
 - [Introduction to SGX — The ELI5](https://scribe.rip/introduction-to-sgx-the-eli5-3abf25e50057) | medium.com | scribe.rip
 - [Content-Addressable Memory Introduction](https://www.pagiamtzis.com/cam/camintro/) | pagiamtzis.com
+- PlatformIO Labs' #LearnEmbedded Resources
+  - [A General Overview of What Happens Before main()](https://embeddedartistry.com/blog/2019/04/08/a-general-overview-of-what-happens-before-main/) | embeddedartistry.com
+  - [From Zero to main(): Demystifying Firmware Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware) | interrupt.memfault.com
+  - [From Zero to main(): How to Write a Bootloader from Scratch](https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch) | interrupt.memfault.com
+  - [GNU Binutils: the ELF Swiss Army Knife](https://interrupt.memfault.com/blog/gnu-binutils) | memfault.com
+  - Analyze your firmware footprint with PlatformIO
+    - [Part 1](https://piolabs.com/blog/insights/memory-analysis-part-1.html) | piolabs.com
+    - [Part 2](https://piolabs.com/blog/insights/memory-analysis-part-2.html) | piolabs.com
+  - [ARM Assembly By Example](https://armasm.com) | armasm.com
+  - [Understanding Arm Cortex-M Intel-Hex (ihex) files](https://blog.feabhas.com/2022/10/understanding-arm-cortex-m-intel-hex-ihex-files/) | feabhas.com
+  - [A Deep Dive into ARM Cortex-M Debug Interfaces](https://interrupt.memfault.com/blog/a-deep-dive-into-arm-cortex-m-debug-interfaces) | interrupt.memfault.com
+  - Diving into JTAG protocol
+    - [Part 1: Overview](https://scribe.rip/@aliaksandr.kavalchuk/diving-into-jtag-protocol-part-1-overview-fbdc428d3a16) | medium.com | scribe.rip
+    - [Part 2: Debugging](https://scribe.rip/@aliaksandr.kavalchuk/diving-into-jtag-protocol-part-2-debugging-56a566db3cf8) | medium.com | scribe.rip
+    - [Part 3: Boundary Scan](https://scribe.rip/@aliaksandr.kavalchuk/diving-into-jtag-part-3-boundary-scan-17f9975ecc59) | medium.com | scribe.rip
+  - [Minimal FreeRTOS with PlatformIO](https://dev.to/frankleonrose/minimal-freertos-with-platformio-2aca) | dev.to
+  - [The Linux Boot Process: From Power Button to Kernel](https://www.0xkato.xyz/linux-boot) | 0xkato.xyz
+  - [Writing an operating system kernel from scratch](https://popovicu.com/posts/writing-an-operating-system-kernel-from-scratch/) | popovicu.com
+  - [Bitcoin Cardputer Wallet](https://www.hackster.io/geo-tp/bitcoin-cardputer-wallet-574154) | hackster.io
+  - [Hardware-as-Code](https://www.hackster.io/sthibault/hardware-as-code-part-i-an-introduction-48bacb) | hackster.io
 
 ## Computing
 - [The History of Computing](https://wikipedia.org/wiki/History_of_computing) | wikipedia.org
@@ -56,6 +76,7 @@
 - [Coding in C for MCUs: Sort Structs to Save Code Size](https://shincbm.com/embedded/2022/02/18/struct-layout-code-size.html) | shincbm.com
 - [Structures in C: From Basics to Memory Alignment](https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/) | abstractexpr.com
 - [Unpacking Tuples in C++14: Andreas Herrmann](https://aherrmann.github.io/programming/2016/02/28/unpacking-tuples-in-cpp14/) | aherrmann.github.io
+- [eBPF: Yes, it's Turing Complete (CGoL in eBPF)](https://isovalent.com/blog/post/ebpf-yes-its-turing-complete/) | isovalent.com
 
 ## Development Environments
 - [How I Use the Kate Editor](https://akselmo.dev/posts/how-i-use-kate-editor/) | akselmo.dev
@@ -74,6 +95,7 @@
 - [Reflections on reflection (attacks)](https://blog.cloudflare.com/reflections-on-reflections/) | cloudflare.com
 - [How did AMD's secure enclave get hacked?](https://www.zach.be/p/how-did-amds-secure-enclave-get-hacked) | zach.be
 - [Packers, How They Work, Featuring UPX](https://dzone.com/articles/packers-how-they-work-featuring-upx) | dzone.com
+- [Breaking Trusted Execution Environments via DDR5 Memory Bus Interposition](https://tee.fail/) | tee.fail
 
 ## Free and Open Source
 - [The Case for Free Online Books](https://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html) | blogspot.com
@@ -201,6 +223,10 @@
 
 ## Compilers
 - ["Vellvm - Verifying the LLVM" by Steve Zdancewic](https://youtube.com/watch?v=q6gSC3OxB_8) | youtube.com
+
+## Embedded Systems/Hardware
+- [How do hardware timers work?](https://www.youtube.com/watch?v=g_koa00MBLg) | youtube.com
+
 
 # OTHER COOL STUFF
 
