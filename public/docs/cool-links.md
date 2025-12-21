@@ -45,6 +45,7 @@
   - [Writing an operating system kernel from scratch](https://popovicu.com/posts/writing-an-operating-system-kernel-from-scratch/) | popovicu.com
   - [Bitcoin Cardputer Wallet](https://www.hackster.io/geo-tp/bitcoin-cardputer-wallet-574154) | hackster.io
   - [Hardware-as-Code](https://www.hackster.io/sthibault/hardware-as-code-part-i-an-introduction-48bacb) | hackster.io
+- [Low Level is easy - 2008](https://yosefk.com/blog/low-level-is-easy.html) | yosefk.com
 
 ## Computing
 - [The History of Computing](https://wikipedia.org/wiki/History_of_computing) | wikipedia.org
@@ -84,9 +85,11 @@
 
 ## Networking
 - [Even faster connection establishment with QUIC 0-RTT resumption](https://blog.cloudflare.com/even-faster-connection-establishment-with-quic-0-rtt-resumption/) | cloudflare.com
+- [Cloudflare outage on November 18, 2025](https://blog.cloudflare.com/18-november-2025-outage/) | cloudflare.com
 
 ## Privacy
 - [Why I recommend against Brave](https://thelibre.news/no-really-dont-use-brave/) | thelibre.news
+- [Everyone knows all the apps on your phone](https://peabee.substack.com/p/everyone-knows-what-apps-you-use) | peabee.substaack.com
 
 ## Security
 - [How the Turla operators hijack satellite Internet links](https://securelist.com/satellite-turla-apt-command-and-control-in-the-sky/72081/) | securelist.com
@@ -208,6 +211,7 @@
 - [Shizuku - Android](https://shizuku.rikka.app/)
 - [Alt App Installer - Windows](https://github.com/mjishnu/alt-app-installer)
 - [Netron - Neural Network Visualizer](https://netron.app/) | netron.app
+- [Toybox - An all-in-one Linux command line](https://github.com/landley/toybox) | github.com
 
 # FORUM QUESTIONS
 
