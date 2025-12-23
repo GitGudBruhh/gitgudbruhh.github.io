@@ -242,8 +242,11 @@
   - [Home Page](http://www.catb.org/)
   - [The Jargon File](http://www.catb.org/jargon/html)
 - [Vaporwave Archives](https://vaporarchive.neocities.org/) | neocities.org
+- [TheOldNet](https://theoldnet.com/) | theoldnet.com
+- [SeaScape Search](https://seascape.yay.boo/) | seascape.yay.boo
 
 ## Games
 - [PWNable](https://pwnable.kr) | pwnable.kr
 - [Backdoors & Breaches, an Incident Response Card Game](https://play.backdoorsandbreaches.com/) | backdoorsandbreaches.com
 - [SQL Murder Mystery](https://mystery.knightlab.com) | knightlab.com
+- [Space Invaders (on the terminal!)](https://github.com/CleanCut/invaders) | github.com
