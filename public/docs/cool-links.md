@@ -79,6 +79,13 @@
 - [Structures in C: From Basics to Memory Alignment](https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/) | abstractexpr.com
 - [Unpacking Tuples in C++14: Andreas Herrmann](https://aherrmann.github.io/programming/2016/02/28/unpacking-tuples-in-cpp14/) | aherrmann.github.io
 - [eBPF: Yes, it's Turing Complete (CGoL in eBPF)](https://isovalent.com/blog/post/ebpf-yes-its-turing-complete/) | isovalent.com
+- Terminal Graphics
+  - Donut Math!
+    - [Donut math: how donut.c works](https://www.a1k0n.net/2011/07/20/donut-math.html) | a1k0n.net
+    - [donut.c without a math library](https://www.a1k0n.net/2021/01/13/optimizing-donut.html) | a1k0n.net
+  - Coloured Text on the Terminal
+    - [Part I - C for Dummies Blog](https://c-for-dummies.com/blog/?p=5270) | c-for-dummies.com
+    - [Part II - C for Dummies Blog](https://c-for-dummies.com/blog/?p=5291) | c-for-dummies.com
 
 ## Development Environments
 - [How I Use the Kate Editor](https://akselmo.dev/posts/how-i-use-kate-editor/) | akselmo.dev
