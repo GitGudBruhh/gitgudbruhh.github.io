@@ -6,6 +6,7 @@
 - [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) | swtch.com
 - [Managing Compiler Errata](https://embedded.com/managing-compiler-errata) | embedded.com
 - [From Source Code to Binary](https://compilersutra.com/docs/compilers/sourcecode_to_executable) | compilersutra.com
+- [Hiding Bugs from Branch Coverage - John Regehr](https://blog.regehr.org/archives/872) | blog.regehr.org
 
 ## Programming Principles
 - [Why Your Code Isn't as Readable as You Think It Is](https://hemaks.org/posts/why-your-code-isnt-as-readable-as-you-think-it-is/) | hemaks.org
@@ -159,6 +160,7 @@
 - Verizon DBIR Reports
   - [Data Breach Investigations Report](https://www.verizon.com/business/resources/reports/dbir/) | verzion.com
   - Scroll down and click on "View Complete Archive" to get the full list
+- [Great Firewall Report](https://gfw.report)
 
 ## RISC-V
 - [Getting Started with RISC-V](https://github.com/LinkedInLearning/getting-started-with-risc-v-4498073/) | github.com
@@ -193,7 +195,7 @@
 
 ## Security
 - [RAPTOR: Routing Attacks on Privacy in Tor](https://arxiv.org/abs/1503.03940) | arxiv.org
-- [Counter-RAPTOR: Safeguuarding Tor Against Active Routing Attacks](https://arxiv.org/abs/1704.00843v2) | arxiv.org
+- [Counter-RAPTOR: Safeguarding Tor Against Active Routing Attacks](https://arxiv.org/abs/1704.00843v2) | arxiv.org
 
 ## Theoretical Computer Science
 - [Algorithms with Predictions - Mitzenmacher, Vassilvitskii](https://arxiv.org/abs/2006.09123) | arxiv.org
@@ -227,10 +229,10 @@
 
 ## Compilers
 - ["Vellvm - Verifying the LLVM" by Steve Zdancewic](https://youtube.com/watch?v=q6gSC3OxB_8) | youtube.com
+- [Path coverage in gcc - Jørgen Kvalsvik - NDC TechTown 2025](https://youtube.com/watch?v=xYMkWT3ipRs) | youtube.com
 
 ## Embedded Systems/Hardware
 - [How do hardware timers work?](https://www.youtube.com/watch?v=g_koa00MBLg) | youtube.com
-
 
 # OTHER COOL STUFF
 
@@ -250,3 +252,6 @@
 - [Backdoors & Breaches, an Incident Response Card Game](https://play.backdoorsandbreaches.com/) | backdoorsandbreaches.com
 - [SQL Murder Mystery](https://mystery.knightlab.com) | knightlab.com
 - [Space Invaders (on the terminal!)](https://github.com/CleanCut/invaders) | github.com
+- Beats by Keripo
+  - [Beats Portable](https://github.com/Keripo/Beats) | github.com
+  - [Beats 2](https://github.com/Keripo/Beats2) | github.com
