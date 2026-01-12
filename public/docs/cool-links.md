@@ -86,6 +86,7 @@
   - Coloured Text on the Terminal
     - [Part I - C for Dummies Blog](https://c-for-dummies.com/blog/?p=5270) | c-for-dummies.com
     - [Part II - C for Dummies Blog](https://c-for-dummies.com/blog/?p=5291) | c-for-dummies.com
+- [NaN boxing or how to make the world dynamic](https://piotrduperas.com/posts/nan-boxing) | piotrduperas.com
 
 ## Development Environments
 - [How I Use the Kate Editor](https://akselmo.dev/posts/how-i-use-kate-editor/) | akselmo.dev
@@ -125,6 +126,7 @@
 - [MIT OCW - Principles of Computer System Design](https://ocw.mit.edu/courses/res-6-004-principles-of-computer-system-design-an-introduction-spring-2009/pages/online-textbook/) | ocw.mit.edu
 - [Dive Into Systems](https://diveintosystems.org) | diveintosystems.org
 - [Three Easy Pieces - Operating Systems](https://pages.cs.wisc.edu/~remzi/OSTEP/) | wisc.edu
+- [Crafting Interpreters - Robert Nystrom](https://craftinginterpreters.com) | craftinginterpreters.com
 
 ## Non-Fiction
 - [Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers](https://openlibrary.org/books/OL29815270M/Sandworm) | openlibrary.org
@@ -179,6 +181,10 @@
 - [The RISC-V Software Ecosystem](https://riseproject.dev) | riseproject.dev
 - [RISC-V Training](https://riscv.org/community/training) | riscv.org
 
+## C++
+- [Working Draft - Programming Languages - C++ | Eel Is](https://eel.is/c++draft/)
+- [Working Draft - Programming Languages - C++ | Tim Song](https://github.com/timsong-cpp/cppwp)
+
 ## Development Environments
 - [Language Server Protocol](https://microsoft.github.io/language-server-protocol) | github.io
 
@@ -228,6 +234,8 @@
 - [How does grep run so fast?](https://stackoverflow.com/questions/12629749/how-does-grep-run-so-fast) | stackoverflow.com
 - [Variable declarations after goto labels](https://stackoverflow.com/questions/18496282/why-do-i-get-a-label-can-only-be-part-of-a-statement-and-a-declaration-is-not-a) | stackoverflow.com
 - [Accessibility Service via ADB](https://stackoverflow.com/questions/63066398/i-need-an-adb-command-to-enable-an-android-accesibility-option) | stackoverflow.com
+- [What is the precise relationship between C and it's abstract machine?](https://stackoverflow.com/questions/53100198/what-is-the-precise-relationship-between-c-and-its-abstract-machine) | stackoverflow.com
+- [How is code stored and executed on the C++ abstract machine?](https://stackoverflow.com/questions/64092889/how-is-code-stored-and-executed-on-the-c-abstract-machine) | stackoverflow.com
 
 # VIDEOS
 
@@ -240,6 +248,9 @@
 
 ## Embedded Systems/Hardware
 - [How do hardware timers work?](https://www.youtube.com/watch?v=g_koa00MBLg) | youtube.com
+- [Much ado about noping - JF Bastien - NDC TechTown 2025](https://youtube.com/watch?v=lgl0WEh5saw) | youtube.com
+- [Microarchitecture: What Happens Beneath - Matt Godbolt](https://www.youtube.com/watch?v=BVVNtG5dgks) | youtube.com
+- [x86 Internals for Fun & Profit - Matt Godbolt - GOTO 2014](https://www.youtube.com/watch?v=hgcNM-6wr34) | youtube.com
 
 # OTHER COOL STUFF
 
