@@ -1,0 +1,38 @@
+.cool-links-content h1 {
+    font-family: 'Press Start 2P';
+    text-decoration: underline;
+    margin: 3rem 0 2rem 0;
+    color: #ffff00; /* Example color for h1 */
+}
+
+.cool-links-content h2 {
+    font-family: 'Press Start 2P';
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    font-size: inherit; /* Override h2 size with h3 size */
+    margin: 3rem 0 0.5rem 0;
+    color: #aaaaaa; /* Example color for h2 */
+}
+
+.cool-links-content ul {
+    font-family: 'VT323';
+    font-size: 1.5rem;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .cool-links-content {
+        padding: 0px 20px 0px 20px;
+    }
+    .cool-links-content h1 {
+        margin: 2.5rem 0 1rem 0; /* Adjust margins for mobile */
+    }
+
+    .cool-links-content h2 {
+        margin: 2.5rem 0 0 0; /* Adjust margins for mobile */
+    }
+
+    .cool-links-content ul {
+        font-size: 1.2rem; /* Optionally adjust font size for mobile */
+    }
+}

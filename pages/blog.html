@@ -1,17 +1,19 @@
 <!DOCTYPE html>
+
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="FAVICON_ICO" type="image/x-icon">
+    <link rel="icon" href="../public/images/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="INDEX_CSS">
-    <script src="INDEX_JS"></script>
+    <link rel="stylesheet" href="../index.css">
+    <script src="../index.js"></script>
 
     <title> GitGudBruhh's Collections! </title>
 
   </head>
 
   <body>
+    <link rel="stylesheet" href="blog.css">
     <nav class="navbar
                 navbar-expand-lg
                 navbar-dark
@@ -25,7 +27,7 @@
                   d-flex"
       >
         <a class="navbar-brand fs-4"
-          href="INDEX_HTML"
+          href="../index.html"
           style="color:yellow; text-shadow: 2px 2px 3px rgba(255, 255, 255, 1);"
           onmouseout="this.style.color='yellow';"
           onmouseover="this.style.color='#fdf8e1';"
@@ -54,24 +56,24 @@
                     mb-lg-0"
           >
             <li class="nav-item">
-              <a class="nav-link active mx-lg-3" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link  mx-lg-3" aria-current="false" href="../index.html">Home</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link mx-lg-3" href="./pages/cool-links.html">CoolLinks</a>
+              <a class="nav-link  mx-lg-3" aria-current="false" href="cool-links.html">CoolLinks</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link mx-lg-3" href="./pages/games.html">Games</a>
+              <a class="nav-link  mx-lg-3" aria-current="false" href="games.html">Games</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link mx-lg-3" href="#">About</a>
+              <a class="nav-link active mx-lg-3" aria-current="page" href="blog.html">Blog</a>
             </li>
 
           </ul>
           <button id="snowflakeButton" class="border rounded-5 border-none" onclick="toggleSnowfall()" style="width: 3rem; height: 3rem; background: transparent;">
-            <img src="./public/images/snow.png" alt="SnowflakeToggle" class="rotating-image" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+            <img src="../public/images/snow.png" alt="SnowflakeToggle" class="rotating-image" style="max-width: 100%; max-height: 100%; object-fit: contain;">
           </button>
         </div>
 
@@ -83,16 +85,28 @@
         <div class="row justify-content-center">
           <div class="col-lg-6 fs-3 text-center"> <!-- Use col-lg-4 for 33% width on large screens -->
             <hr/>
-            <h3> Welcome to </h3>
-            <h2 style="font-family: 'Press Start 2P'; text-shadow: 1px 1px 4px rgba(255, 255, 255, 1);" id="titleMainPage" class="unselectable"> GitGudBruhh's Collections! </h2>
+            <h3> You have landed at: </h3>
+            <i> <h2 style="font-family: 'Press Start 2P'; text-shadow: 1px 1px 4px rgba(255, 255, 255, 1);" id="titleMainPage" class="unselectable"> My Blog! </h2> </i>
             <hr/>
-            <p> What will you find here? Well I honestly cannot pinpoint anything specific. </p>
-            <p> Blogs, resources, books, articles, research papers, games (and maybe even how to get them if you know what I mean *wink*) ... really anything that I find "cool" enough to share with you strangers over the internet.</p>
-            <p> Much of the content that you find here will be related to my own interests. Feel free to reach out if you would like something to be added here!</p>
-            <p> Sit back, grab a cup of coffee, and enjoy reading!</p>
+            <p> Anything that runs in my head that I want to pen (type) down can be found here! </p>
+            <hr/>
           </div>
         </div>
       </div>
+
+      <div class="container" style="font-family: 'VT323'">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 fs-3 text-center"> <!-- Use col-lg-4 for 33% width on large screens -->
+              <h3> Site under construction! </h3>
+              <img src="../public/images/under-construction.gif" style="max-width: 100%; max-height: 100%; object-fit: contain;"><img/>
+            </div>
+          </div>
+        </div>
+
+<div class="container blog-content">
+
+</div>
+
     </div>
 
     <footer style="font-family: 'VT323'" class="text-center gradient-footer fs-5 p-lg-1">
@@ -101,22 +115,21 @@
         <div class="p-3 col-md-4 text-center">
           <div>Made by: GitGudBruhh</div>
           <div><a href="https://github.com/GitGudBruhh">Find me on Github</a></div>
-          <div><a href="https://github.com/GitGudBruhh/gitgudbruhh.github.io">Fork the repo here</a></div>
+          <div><a href="https://github.com/GitGudBruhh/gitgudbruhh.github.io">Website Source</a></div>
         </div>
 
         <div class="p-3 col-md-4 text-center">
-          Copyright: (C) GitGudBruhh 2025 <br>
-          This author has licensed this <br>
+          Copyright: (C) GitGudBruhh 2026 <br>
+          The author has licensed this <br>
           project under the MIT License.
         </div>
 
         <div class="p-3 col-md-4 text-center">
           Feel free to use, modify, and <br>
-          distribute this work as you wish. <br>
+          distribute this work. <br>
         </div>
       </div>
     </footer>
-
   </body>
 </html>
 
