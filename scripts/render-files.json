@@ -1,0 +1,16 @@
+{
+    "./build/index.html": {
+    },
+    "./build/index.css": {
+    },
+    "./build/cool-links.html": {
+        "<!-- REPLACEME-COOL-LINKS -->": ["md2html", "./public/docs/cool-links.md"]
+    },
+    "./build/cool-links.css": {
+    },
+    "./build/games.html": {
+    },
+    "./build/blog.html": {
+        "<!-- REPLACEME-BLOG -->": ["true"]
+    }
+}

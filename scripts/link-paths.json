@@ -1,0 +1,41 @@
+{
+    "source-dest": {
+        "./build/index.html": "./index.html",
+        "./build/index.css": "./index.css",
+        "./build/cool-links.html": "./pages/cool-links.html",
+        "./build/cool-links.css": "./pages/cool-links.css",
+        "./build/games.html": "./pages/games.html",
+        "./build/blog.html": "./pages/blog.html"
+    },
+
+    "string-link": {
+        "FAVICON_ICO": "./public/images/favicon.ico",
+        "PRESS_START_2P_TTF": "./public/fonts/press_start_2p/PressStart2P.ttf",
+        "VT323_REGULAR_TTF": "./public/fonts/vt323/VT323-Regular.ttf",
+        "INDEX_HTML": "./index.html",
+        "INDEX_CSS": "./index.css",
+        "INDEX_JS": "./index.js",
+        "COOL_LINKS_HTML": "./pages/cool-links.html",
+        "COOL_LINKS_CSS": "./pages/cool-links.css",
+        "COOL_LINKS_MD": "./public/docs/cool-links.md",
+        "GAMES_HTML": "./pages/games.html",
+        "BLOG_HTML": "./pages/blog.html",
+        "BLOG_CSS": "./pages/blog.css",
+        "SNOW_PNG": "./public/images/snow.png",
+        "UNDER_CONSTRUCTION_GIF": "./public/images/under-construction.gif"
+    },
+
+    "aria-replacements": {
+        "ARIA_CURRENT_INDEX": "./index.html",
+        "ARIA_CURRENT_COOL_LINKS": "./pages/cool-links.html",
+        "ARIA_CURRENT_GAMES": "./pages/games.html",
+        "ARIA_CURRENT_BLOG": "./pages/blog.html"
+    },
+
+    "active-navbar-replacements": {
+        "ACTIVE_INDEX": "./index.html",
+        "ACTIVE_COOL_LINKS": "./pages/cool-links.html",
+        "ACTIVE_GAMES": "./pages/games.html",
+        "ACTIVE_BLOG": "./pages/blog.html"
+    }
+}
