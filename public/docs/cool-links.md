@@ -128,17 +128,30 @@
 - [Three Easy Pieces - Operating Systems](https://pages.cs.wisc.edu/~remzi/OSTEP/) | wisc.edu
 - [Crafting Interpreters - Robert Nystrom](https://craftinginterpreters.com) | craftinginterpreters.com
 
-## Non-Fiction
-- [Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers](https://openlibrary.org/books/OL29815270M/Sandworm) | openlibrary.org
-
 ## Reference Books
 - [The RISC-V Reader: An Open Architecture Atlas](http://www.riscvbook.com/) | riscvbook.com
 - [Linux Device Drivers - Third Edition](https://lwn.net/Kernel/LDD3/) | lwn.net
 
-## Psychology
-- [Thinking, Fast and Slow - Daniel Kahneman](https://wikipedia.org/wiki/Thinking,_Fast_and_Slow) | wikipedia.org
+## Tech Stuff
+- Cybersecurity
+  - [Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers](https://openlibrary.org/books/OL29815270M/Sandworm) | openlibrary.org
+  - [Hands-on Internet-of-Things Hacking - Payatu](https://payatu.com/download-hands-on-internet-of-things-hacking/) | payatu.com
+- Compilers
+  - [SSA-based Compiler Design](https://link.springer.com/book/10.1007/978-3-030-80515-9) | springer.com
+  - [LLVM Code Generation by Quentin Colombet](https://www.packtpub.com/en-us/product/llvm-code-generation-9781835462577) | packtpub.com
+
+## Math
+- [Everything You Always Wanted To Know About Mathematics](https://archive.org/details/everything-you-always-wanted-to-know-about-mathematics) | archive.org
+
+## Science
+- The Quantum World
+  - [Hydrogen: The Essential Element - John S. Rigden](https://www.jstor.org/stable/j.ctv1pncpvj) | jstor.org
+- Relativity
+  - [Six Easy Pieces: Essentials of Physics Explained by Its Most Brilliant Teacher](https://openlibrary.org/books/OL1105736M/Six_easy_pieces) | openlibrary.org
+  - [Six Not-So-Easy Pieces: Einstein's Relativity, Symmetry, and Space-time](https://openlibrary.org/books/OL1007879M/Six_not-so-easy_pieces) | openlibrary.org
 
 ## Mixed Bag
+- [Thinking, Fast and Slow - Daniel Kahneman](https://wikipedia.org/wiki/Thinking,_Fast_and_Slow) | wikipedia.org
 - [Gödel, Escher, Bach: an Eternal Golden Braid](https://archive.org/details/douglas-hofstadter-godel-escher-bach-an-eternal-golden-braid) | archive.org
 
 # DOCS AND RESOURCES
@@ -169,26 +182,30 @@
 - Verizon DBIR Reports
   - [Data Breach Investigations Report](https://www.verizon.com/business/resources/reports/dbir/) | verzion.com
   - Scroll down and click on "View Complete Archive" to get the full list
-- [Great Firewall Report](https://gfw.report)
+- [Great Firewall Report](https://gfw.report) | gfw.report
 
-## RISC-V
-- [Getting Started with RISC-V](https://github.com/LinkedInLearning/getting-started-with-risc-v-4498073/) | github.com
-- [RISC-V International](https://riscv.org) | riscv.org
-  - [RISC-V Exchange](https://riscv.org/exchange) | riscv.org
-  - [RISC-V Specs](https://riscv.org/specifications) | riscv.org
-  - [RISC-V Specs (includes Non-ISA)](https://lf-riscv.atlassian.net/wiki/display/HOME/RISC-V+Technical+Specifications) | lf-riscv.atlassian.net
-- [RISC-V Ecosystem Interactive Landscape](https://landscape.riscv.org) | landscape.riscv.org
-- [The RISC-V Software Ecosystem](https://riseproject.dev) | riseproject.dev
-- [RISC-V Training](https://riscv.org/community/training) | riscv.org
+## Architecture and Assembly
+- RISC-V
+  - [Getting Started with RISC-V](https://github.com/LinkedInLearning/getting-started-with-risc-v-4498073/) | github.com
+  - [RISC-V International](https://riscv.org) | riscv.org
+    - [RISC-V Exchange](https://riscv.org/exchange) | riscv.org
+    - [RISC-V Specs](https://riscv.org/specifications) | riscv.org
+    - [RISC-V Specs (includes Non-ISA)](https://lf-riscv.atlassian.net/wiki/display/HOME/RISC-V+Technical+Specifications) | lf-riscv.atlassian.net
+  - [RISC-V Ecosystem Interactive Landscape](https://landscape.riscv.org) | landscape.riscv.org
+  - [The RISC-V Software Ecosystem](https://riseproject.dev) | riseproject.dev
+  - [RISC-V Training](https://riscv.org/community/training) | riscv.org
+- ARM
+  - [Documentation - ARM Developer](https://developer.arm.com/documentation) | arm.com
+  - [AMBA Specifications](https://www.arm.com/architecture/system-architectures/amba/amba-specifications) | arm.com
 
-## C++
-- [Working Draft - Programming Languages - C++ | Eel Is](https://eel.is/c++draft/)
-- [Working Draft - Programming Languages - C++ | Tim Song](https://github.com/timsong-cpp/cppwp)
+## Programming Languages
+- [Working Draft - Programming Languages - C++ | Eel Is](https://eel.is/c++draft/) | eel.is
+- [Working Draft - Programming Languages - C++ | Tim Song](https://github.com/timsong-cpp/cppwp) | github.com
 
-## Development Environments
+## IDEs, APIs and Protocols
 - [Language Server Protocol](https://microsoft.github.io/language-server-protocol) | github.io
 
-## Programming Principles
+## Software Development
 - [Refactoring Guru](https://refactoring.guru/) | refactoring.guru
 
 # RESEARCH PAPERS
@@ -199,7 +216,7 @@
 - [Cut The Crap: A critical response to "ChatGPT is Bullshit"](https://link.springer.com/article/10.1007/s10676-025-09828-3) | springer.com
 - [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) | arxiv.org
 
-## Systems
+## Computer Systems
 - [Simultaneous and Heterogenous Multithreading](https://dl.acm.org/doi/fullHtml/10.1145/3613424.3614285) | acm.org
 
 ## Hardware
