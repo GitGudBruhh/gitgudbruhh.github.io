@@ -54,11 +54,11 @@
   - [Bitcoin Cardputer Wallet](https://www.hackster.io/geo-tp/bitcoin-cardputer-wallet-574154) | hackster.io
   - [Hardware-as-Code](https://www.hackster.io/sthibault/hardware-as-code-part-i-an-introduction-48bacb) | hackster.io
 - [Low Level is easy - 2008](https://yosefk.com/blog/low-level-is-easy.html) | yosefk.com
+- [Coding in C for MCUs: Sort Structs to Save Code Size](https://shincbm.com/embedded/2022/02/18/struct-layout-code-size.html) | shincbm.com
 
 ## Programming
 - [Bypassing the GIL for Parallel Processing in Python](realpython.com/python-parallel-processing/) | realpython.com
 - [Copy Elision in C++](https://www.geeksforgeeks.org/cpp/copy-elision-in-cpp/) | geeksforgeeks.org
-- [Coding in C for MCUs: Sort Structs to Save Code Size](https://shincbm.com/embedded/2022/02/18/struct-layout-code-size.html) | shincbm.com
 - [Structures in C: From Basics to Memory Alignment](https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/) | abstractexpr.com
 - [Unpacking Tuples in C++14: Andreas Herrmann](https://aherrmann.github.io/programming/2016/02/28/unpacking-tuples-in-cpp14/) | aherrmann.github.io
 - [eBPF: Yes, it's Turing Complete (CGoL in eBPF)](https://isovalent.com/blog/post/ebpf-yes-its-turing-complete/) | isovalent.com
@@ -70,12 +70,14 @@
     - [Part I - C for Dummies Blog](https://c-for-dummies.com/blog/?p=5270) | c-for-dummies.com
     - [Part II - C for Dummies Blog](https://c-for-dummies.com/blog/?p=5291) | c-for-dummies.com
 - [NaN boxing or how to make the world dynamic](https://piotrduperas.com/posts/nan-boxing) | piotrduperas.com
+- [Default and named arguments in C functions](https://scribe.rip/@aliaksandr.kavalchuk/default-and-named-arguments-in-c-functions-9af8c4e34f9b) | medium.com | scribe.rip
 
-## Programming Principles
+## Software Engineering Principles
 - [Why Your Code Isn't as Readable as You Think It Is](https://hemaks.org/posts/why-your-code-isnt-as-readable-as-you-think-it-is/) | hemaks.org
 - [A Process for Readable Code](https://jaidevd.com/posts/code-readability-process/) | jaidevd.com
 - [The Errors of Tex: Donald Knuth](https://yurichev.com/mirrors/knuth1989.pdf) | yurichev.com
 - [Unicode & Character Sets: Essential Knowledge Every Developer Needs](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) | joeelonsoftware.com
+- [Storing times, and precision of float64](https://jmft.dev/time-precision-float64.html) | jmft.dev
 
 ## Computer Systems Design
 - [Six Principles of System Design](https://www.intercom.com/blog/six-principles-of-system-design/) | intercom.com
@@ -166,6 +168,7 @@
 - USENIX Publications: The `;login:` magazine:
   - [Pre-2021](https://www.usenix.org/publications/login/) | usenix.org
   - [Post-2021](https://www.usenix.org/publications/loginonline/) | usenix.org
+- [Linux Kernel Study Resources](https://kernelmeet.com/topic/2/linux-kernel-study-resources) | kernelmeet.com
 
 ## Security
 - [OWASP Community Pages](https://owasp.org/www-community/) | owasp.org
@@ -239,11 +242,11 @@
 - [GNU Autoconf](https://www.gnu.org/software/autoconf/) | gnu.org
 - [voidtools](https://www.voidtools.com/) | voidtools.com
 - ASCII Drawings
-  - [ASCIIFlow](https://asciiflow.com)
-  - [Text Tree Generator](https://www.text-tree-generator.com/)
-  - [ASCII Tree Generator](https://ascii-tree-generator.com/) 
-- [Shizuku - Android](https://shizuku.rikka.app/)
-- [Alt App Installer - Windows](https://github.com/mjishnu/alt-app-installer)
+  - [ASCIIFlow](https://asciiflow.com) | asciiflow.com
+  - [Text Tree Generator](https://www.text-tree-generator.com/) | text-tree-generator.com
+  - [ASCII Tree Generator](https://ascii-tree-generator.com/) | ascii-tree-generator.com
+- [Shizuku - Android](https://shizuku.rikka.app/) | rikka.app
+- [Alt App Installer - Windows](https://github.com/mjishnu/alt-app-installer) | github.com
 - [Netron - Neural Network Visualizer](https://netron.app/) | netron.app
 - [Toybox - An all-in-one Linux command line](https://github.com/landley/toybox) | github.com
 
