@@ -1,4 +1,5 @@
 cp ./src/templates/index-template.html ./build/index.html
+cp ./src/templates/index-template.css ./build/index.css
 cp ./src/templates/blog-template.html ./build/blog.html
 cp ./src/templates/cool-links-template.html ./build/cool-links.html
 cp ./src/templates/cool-links-template.css ./build/cool-links.css
