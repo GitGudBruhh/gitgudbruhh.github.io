@@ -158,6 +158,8 @@
 
 ## Courses
 - [CS 6846: Quantum Algorithms and Cryptography - Shweta Agrawal](https://www.cse.iitm.ac.in/~shwetaag/CS6846.html) | iitm.ac.in
+- [Algorithms for DNA Sequencing](https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA) | youtube.com
+- [Introduction to Computer Graphics - University of Utah](https://www.youtube.com/playlist?list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh) | youtube.com
 
 ## Linux
 - [Linux - Tracing, Monitoring and Debugging (STM32)](https://wiki.st.com/stm32mpu/wiki/Linux_tracing,_monitoring_and_debugging) | wiki.st.com
