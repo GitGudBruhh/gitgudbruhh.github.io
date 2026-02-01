@@ -1,21 +1,28 @@
 # BLOGS AND ARTICLES
 
+## Computing
+- [The History of Computing](https://wikipedia.org/wiki/History_of_computing) | wikipedia.org
+- Mechanical Machines
+  - [Mechanical Adder](https://leoctai.com/mechanicalAdder/index.html) | leoctai.com
+  - [How Calculating Machines Worked](https://www.hpmuseum.org/mechwork.htm) | hpmuseum.org
+
 ## Compilers
 - [Can You Trust a Compiler to Optimize Your Code?](https://matklad.github.io/2023/04/09/can-you-trust-a-compiler-to-optimize-your-code.html) | matklad.github.io
 - [A Bug Story: Data Alignment on x86](https://pzemtsov.github.io/2016/11/06/bug-story-alignment-on-x86.html) | pzemtsov.github.io
-- [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) | swtch.com
 - [Managing Compiler Errata](https://embedded.com/managing-compiler-errata) | embedded.com
 - [From Source Code to Binary](https://compilersutra.com/docs/compilers/sourcecode_to_executable) | compilersutra.com
 - [Hiding Bugs from Branch Coverage - John Regehr](https://blog.regehr.org/archives/872) | blog.regehr.org
 
-## Programming Principles
-- [Why Your Code Isn't as Readable as You Think It Is](https://hemaks.org/posts/why-your-code-isnt-as-readable-as-you-think-it-is/) | hemaks.org
-- [A Process for Readable Code](https://jaidevd.com/posts/code-readability-process/) | jaidevd.com
-- [The Errors of Tex: Donald Knuth](https://yurichev.com/mirrors/knuth1989.pdf) | yurichev.com
-- [Unicode & Character Sets: Essential Knowledge Every Developer Needs](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) | joeelonsoftware.com
-
-## Computer Systems Design
-- [Six Principles of System Design](https://www.intercom.com/blog/six-principles-of-system-design/) | intercom.com
+## Theoretical Computer Science
+- [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) | swtch.com
+- Fixed Points and Functional Programming
+  - [The Brouwer Fixed Point Theorem](https://brilliant.org/wiki/brouwer-fixed-point-theorem/) | brilliant.org
+  - [Simple Yet Powerful: Lambda Calculus](https://thealmarty.com/2018/08/07/simple-yet-powerful-lambda-calculus/) | thealmarty.com
+  - [Reucrsion in Lambda Calculus: The Y Combinator](https://thealmarty.com/2018/08/13/recursion-in-lambda-calculus-the-y-combinator/) | thealmarty.com
+  - [The Y-Combinator (no, not that one)](https://scribe.rip/@ayanonagon/the-y-combinator-no-not-that-one-7268d8d9c46) | medium.com | scribe.rip
+- [Algorithms with Predictions](https://algorithms-with-predictions.github.io) | github.io
+- [Satisfiability Modulo Theories](https://wikipedia.org/wiki/Satisfiability_modulo_theories) | wikipedia.org
+- [Cyclomatic Complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) | wikipedia.org
 
 ## Embedded Systems/Hardware
 - [Root Shell on a Credit Card Terminal](https://stefan-gloor.ch/yomani-hack) | stefan-gloor.ch
@@ -48,30 +55,6 @@
   - [Hardware-as-Code](https://www.hackster.io/sthibault/hardware-as-code-part-i-an-introduction-48bacb) | hackster.io
 - [Low Level is easy - 2008](https://yosefk.com/blog/low-level-is-easy.html) | yosefk.com
 
-## Computing
-- [The History of Computing](https://wikipedia.org/wiki/History_of_computing) | wikipedia.org
-- Mechanical Machines
-  - [Mechanical Adder](https://leoctai.com/mechanicalAdder/index.html) | leoctai.com
-  - [How Calculating Machines Worked](https://www.hpmuseum.org/mechwork.htm) | hpmuseum.org
-
-## Theoretical Computer Science
-- Fixed Points and Functional Programming
-  - [The Brouwer Fixed Point Theorem](https://brilliant.org/wiki/brouwer-fixed-point-theorem/) | brilliant.org
-  - [Simple Yet Powerful: Lambda Calculus](https://thealmarty.com/2018/08/07/simple-yet-powerful-lambda-calculus/) | thealmarty.com
-  - [Reucrsion in Lambda Calculus: The Y Combinator](https://thealmarty.com/2018/08/13/recursion-in-lambda-calculus-the-y-combinator/) | thealmarty.com
-  - [The Y-Combinator (no, not that one)](https://scribe.rip/@ayanonagon/the-y-combinator-no-not-that-one-7268d8d9c46) | medium.com | scribe.rip
-- [Algorithms with Predictions](https://algorithms-with-predictions.github.io) | github.io
-- [Satisfiability Modulo Theories](https://wikipedia.org/wiki/Satisfiability_modulo_theories) | wikipedia.org
-- [Cyclomatic Complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) | wikipedia.org
-
-## Artificial Intelligence and Machine Learning
-- [The Copilot Delusion](https://deplet.ing/the-copilot-delusion/) | deplet.ing
-- [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) | arxiv.org
-
-## Web Development
-- [Playing with MutationObserver in Javascript](https://www.bennadel.com/blog/4627-playing-with-mutationobserver-in-javascript.htm) | bennadel.com
-- [How well do you know JavaScript's Date class?](https://jsdate.wtf) | jsdate.wtf
-
 ## Programming
 - [Bypassing the GIL for Parallel Processing in Python](realpython.com/python-parallel-processing/) | realpython.com
 - [Copy Elision in C++](https://www.geeksforgeeks.org/cpp/copy-elision-in-cpp/) | geeksforgeeks.org
@@ -87,6 +70,23 @@
     - [Part I - C for Dummies Blog](https://c-for-dummies.com/blog/?p=5270) | c-for-dummies.com
     - [Part II - C for Dummies Blog](https://c-for-dummies.com/blog/?p=5291) | c-for-dummies.com
 - [NaN boxing or how to make the world dynamic](https://piotrduperas.com/posts/nan-boxing) | piotrduperas.com
+
+## Programming Principles
+- [Why Your Code Isn't as Readable as You Think It Is](https://hemaks.org/posts/why-your-code-isnt-as-readable-as-you-think-it-is/) | hemaks.org
+- [A Process for Readable Code](https://jaidevd.com/posts/code-readability-process/) | jaidevd.com
+- [The Errors of Tex: Donald Knuth](https://yurichev.com/mirrors/knuth1989.pdf) | yurichev.com
+- [Unicode & Character Sets: Essential Knowledge Every Developer Needs](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) | joeelonsoftware.com
+
+## Computer Systems Design
+- [Six Principles of System Design](https://www.intercom.com/blog/six-principles-of-system-design/) | intercom.com
+
+## Artificial Intelligence and Machine Learning
+- [The Copilot Delusion](https://deplet.ing/the-copilot-delusion/) | deplet.ing
+- [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) | arxiv.org
+
+## Web Development
+- [Playing with MutationObserver in Javascript](https://www.bennadel.com/blog/4627-playing-with-mutationobserver-in-javascript.htm) | bennadel.com
+- [How well do you know JavaScript's Date class?](https://jsdate.wtf) | jsdate.wtf
 
 ## Development Environments
 - [How I Use the Kate Editor](https://akselmo.dev/posts/how-i-use-kate-editor/) | akselmo.dev
