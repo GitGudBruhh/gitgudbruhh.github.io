@@ -31,6 +31,13 @@ Detection of abuse will lead to legal action.
     font-size: 1.5rem;
 }
 
+.feeling-lucky-button {
+/*     background-color: #fff000; */
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(45deg, green, blue, indigo, violet, red, orange, yellow);
+}
+
 /* Media query for mobile devices */
 @media (max-width: 600px) {
     .cool-links-content {
