@@ -88,7 +88,7 @@ if __name__ == "__main__":
                     content = content.replace(custom_replace_string,
                                               result.stdout.strip())
 
-                    # print(f"Replaced {custom_replace_string} in {f_path}")
+                    # print(f"Rendered {custom_replace_string} in {f_path}")
 
             # Write rendering
             with open(f_path, 'w') as f:
