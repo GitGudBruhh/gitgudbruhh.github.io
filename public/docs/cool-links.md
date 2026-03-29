@@ -31,6 +31,8 @@
 - [Cyclomatic Complexity](https://wikipedia.org/wiki/Cyclomatic_complexity) | wikipedia.org
 - Algorithms
   - [Simulated Annealing](https://wikipedia.org/wiki/Simulated_annealing) | wikipedia.org
+- [Tony Hoare (1934-2026)](https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html) | computationalcomplexity.org
+- [Brainf**k](https://wikipedia.org/wiki/Brainfuck) | wikipedia.org
 
 ## Architecture, Embedded Systems & Hardware
 - [Root Shell on a Credit Card Terminal](https://stefan-gloor.ch/yomani-hack) | stefan-gloor.ch
@@ -68,11 +70,14 @@
 - [Adventures in the RISC-V land](https://something.fromnothing.blog/posts/risc-v-adventures/) | something.fromnothing.blog
 - [Universal_Verification_Methodology](https://wikipedia.org/wiki/Universal_Verification_Methodology) | wikipedia.org
 - [What optimizations you can expect from CPU?](https://easyperf.net/blog/2018/04/22/What-optimizations-you-can-expect-from-CPU) | easyperf.net
+- [Caches: LRU v. random](https://danluu.com/2choices-eviction/) | danluu.com
+- [Testing v. informal reasoning](https://danluu.com/tests-v-reason/) | danluu.com
 
 ## Programming
 - General
   - [eBPF: Yes, it's Turing Complete (CGoL in eBPF)](https://isovalent.com/blog/post/ebpf-yes-its-turing-complete/) | isovalent.com
   - [NaN boxing or how to make the world dynamic](https://web.archive.org/web/20251230221242/https://piotrduperas.com/posts/nan-boxing) | piotrduperas.com | archive.org
+  - [Package Managers are Evil](https://www.gingerbill.org/article/2025/09/08/package-managers-are-evil/) | gingerbill.org
 - C/C++
   - [The Underhanded C Contest - The official perfectly innocent web page for law-abiding good guys](https://underhanded-c.org/) | underhanded-c.org
   - [Copy Elision in C++](https://www.geeksforgeeks.org/cpp/copy-elision-in-cpp/) | geeksforgeeks.org
@@ -105,6 +110,9 @@
   - [Refactoring Guru](https://refactoring.guru/) | refactoring.guru
 - [Optimism vs Pessimism in Distributed Systems - Marc's Blog](https://brooker.co.za/blog/2023/10/18/optimism.html) | brooker.co.za
 - [Flexible Schemas Are The Mindkiller](https://ludic.mataroa.blog/blog/flexible-schemas-are-the-mindkiller/) | ludic.mataroa.blog
+- [Improving Firefox stability with this one weird trick](https://hacks.mozilla.org/2022/11/improving-firefox-stability-with-this-one-weird-trick/) | hacks.mozilla.org
+- UI/UX
+  - [Bugs Apple Loves](https://www.bugsappleloves.com/) | bugsappleloves.com
 
 ## Artificial Intelligence and Machine Learning
 - Early Artificial Intelligence
@@ -120,6 +128,11 @@
   - [After The Menu Comes The Bill](https://scribe.rip/p/after-the-menu-comes-the-bill-c55ec30b458c) | medium.com | scribe.rip
   - [No one wants to read your AI slop](https://pluralistic.net/2026/03/02/nonconsensual-slopping/#robowanking) | pluralistic.net
   - [Are AI-generated summaries suitable for studying and research?](https://www.tue.nl/en/our-university/library/library-news/24-02-2026-are-ai-generated-summaries-suitable-for-studying-and-research) | tue.nl
+  - [An open letter to Grammarly and other plagiarists, thieves and slop merchants](https://www.moryan.com/an-open-letter-to-grammarly-and-other-plagiarists-thieves-and-slop-merchants/) | moryan.com
+  - [Google Search is now using AI to replace headlines](https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment) | theverge.com
+  - [Endgame for the Open Web](https://www.anildash.com/2026/03/27/endgame-open-web/) | anildash.com
+  - ['I wish I could push ChatGPT off a cliff': professors scramble to save critical thinking in an age of AI](https://www.theguardian.com/technology/ng-interactive/2026/mar/10/ai-impact-professors-students-learning) | theguardian.com
+  - [Chardet dispute shows how AI will kill software licensing, argues Bruce Perens](https://www.theregister.com/2026/03/06/ai_kills_software_licensing/) | theregister.com
 
 ## Development Environments
 - [How I Use the Kate Editor](https://akselmo.dev/posts/how-i-use-kate-editor/) | akselmo.dev
@@ -133,6 +146,9 @@
 - [Why I recommend against Brave](https://thelibre.news/no-really-dont-use-brave/) | thelibre.news
 - [Everyone knows all the apps on your phone](https://peabee.substack.com/p/everyone-knows-what-apps-you-use) | peabee.substaack.com
 - [This App Warns You if Someone Is Wearing Smart Glasses Nearby](https://archive.ph/hiYJ5) | archive.ph | 404media.co
+- [System76 on Age Verification Laws](https://blog.system76.com/post/system76-on-age-verification) | system76.com
+- [The Government Uses Targeted Advertising to Track Your Location. Here's What We Need to Do.](https://www.eff.org/deeplinks/2026/03/targeted-advertising-gives-your-location-government-just-ask-cbp) | eff.org
+- [Instagram quietly drops end-to-end encrypted chats](https://proton.me/blog/instagram-end-to-end-encryption) | proton.me
 
 ## Security
 - General
@@ -146,6 +162,7 @@
   - [EICAR test file](https://wikipedia.org/wiki/EICAR_test_file) | wikipedia.org
   - [GTUBE](https://wikipedia.org/wiki/GTUBE) | wikipedia.org
   - [The curl NuGet Story](https://daniel.haxx.se/blog/2023/03/02/the-curl-nuget-story/) | daniel.haxx.se
+  - [Improving Firefox Stability in the Enterprise by Reducing DLL Injection](https://hacks.mozilla.org/2025/03/improving-firefox-stability-in-the-enterprise-by-reducing-dll-injection/)
 - Networks
   - [QUIC action: patching a broadcast address amplification vulnerability](https://blog.cloudflare.com/mitigating-broadcast-address-attack/) | cloudflare.com
   - [Reflections on reflection (attacks)](https://blog.cloudflare.com/reflections-on-reflections/) | cloudflare.com
@@ -161,6 +178,7 @@
 ## Free and Open Source
 - [The Case for Free Online Books](https://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html) | blogspot.com
 - [The GNU Philosophy: Words to Avoid](https://www.gnu.org/philosophy/words-to-avoid.en.html) | gnu.org
+- [The Noble Path](https://www.joanwestenberg.com/the-noble-path/) | joanwestenberg.com
 - Android
   - [Keep Android Open](https://keepandroidopen.org) | keepandroidopen.org
   - [F-Droid: Keep Android Open](f-droid.org/2026/02/20/twif.html) | f-droid.org
@@ -306,6 +324,7 @@
 - [Cut The Crap: A critical response to "ChatGPT is Bullshit"](https://link.springer.com/article/10.1007/s10676-025-09828-3) | springer.com
 - [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) | arxiv.org
 - [Scalable watermarking for identifying large language model outputs: SynthID-Text](https://www.nature.com/articles/s41586-024-08025-4) | nature.com
+- [Epistemological Fault Lines Between Human and Artificial Intelligence](https://arxiv.org/pdf/2512.19466) | arxiv.org
 
 ## Computer Systems
 - [Simultaneous and Heterogenous Multithreading](https://dl.acm.org/doi/fullHtml/10.1145/3613424.3614285) | acm.org
@@ -315,6 +334,10 @@
 - [faulTPM: Exposing AMD fTPMs' Deepest Secrets](https://arxiv.org/abs/2304.14717) | arxiv.org
 - [LifeLine for FPGA Protection: Obfuscated Cryptography for Real-World Security](https://tches.iacr.org/index.php/TCHES/article/view/9071) | tches.iacr.org
 - [On the Difficulty of FSM-based Hardware Obfuscation](https://www.researchgate.net/publication/335188900_On_the_Difficulty_of_FSM-based_Hardware_Obfuscation) | tches.iacr.org | researchgate.net
+- Silent Data Corruption
+  - [Cores that don’t count](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s01-hochschild.pdf) | sigops.org
+  - [Understanding GPU Memory Corruption at Extreme Scale: The Summit Case Study](https://christian-engelmann.de/publications/oles24understanding.pdf) | christian-engelmann.de
+  - [Silent Data Corruptions at Scale](https://arxiv.org/pdf/2102.11245) | arxiv.org
 
 ## Security
 - [RAPTOR: Routing Attacks on Privacy in Tor](https://arxiv.org/abs/1503.03940) | arxiv.org
@@ -343,15 +366,31 @@
 
 # FORUMS AND DISCUSSIONS
 
+## Theoretical Computer Science
 - [What's the Time Complexity of Average Regex Algorithms](https://stackoverflow.com/questions/5892115/whats-the-time-complexity-of-average-regex-algorithms) | stackoverflow.com
 - [How does grep run so fast?](https://stackoverflow.com/questions/12629749/how-does-grep-run-so-fast) | stackoverflow.com
-- [Variable declarations after goto labels](https://stackoverflow.com/questions/18496282/why-do-i-get-a-label-can-only-be-part-of-a-statement-and-a-declaration-is-not-a) | stackoverflow.com
-- [Accessibility Service via ADB](https://stackoverflow.com/questions/63066398/i-need-an-adb-command-to-enable-an-android-accesibility-option) | stackoverflow.com
-- [What is the precise relationship between C and it's abstract machine?](https://stackoverflow.com/questions/53100198/what-is-the-precise-relationship-between-c-and-its-abstract-machine) | stackoverflow.com
-- [How is code stored and executed on the C++ abstract machine?](https://stackoverflow.com/questions/64092889/how-is-code-stored-and-executed-on-the-c-abstract-machine) | stackoverflow.com
-- [What is the point of www in web urls?](https://stackoverflow.com/questions/413490/what-is-the-point-of-www-in-web-urls) | stackoverflow.com
+
+## Programming Languages
+- C/C++
+  - [What is the precise relationship between C and it's abstract machine?](https://stackoverflow.com/questions/53100198/what-is-the-precise-relationship-between-c-and-its-abstract-machine) | stackoverflow.com
+  - [How is code stored and executed on the C++ abstract machine?](https://stackoverflow.com/questions/64092889/how-is-code-stored-and-executed-on-the-c-abstract-machine) | stackoverflow.com
+  - [Variable declarations after goto labels](https://stackoverflow.com/questions/18496282/why-do-i-get-a-label-can-only-be-part-of-a-statement-and-a-declaration-is-not-a) | stackoverflow.com
+
+## Embedded Systems and Hardware
+- [Memory errors in consumer devices - Gabriele Svelto](https://fosstodon.org/@gabrielesvelto/112407741329145666) | fosstodon.org
+- [Bit flips and Firefox Crash reports - Gabriele Svelto](https://mas.to/@gabrielesvelto/116171750653898304) | mas.to
+
+## System Design
 - [Comments on Event Driven Architectures - HackerNews](https://news.ycombinator.com/item?id=22288526) | ycombinator.com
+
+## Security
 - [What is the exact meaning of this gpg output regarding trust?](https://security.stackexchange.com/questions/41208/what-is-the-exact-meaning-of-this-gpg-output-regarding-trust) | stackexchange.com
+
+## Android
+- [Accessibility Service via ADB](https://stackoverflow.com/questions/63066398/i-need-an-adb-command-to-enable-an-android-accesibility-option) | stackoverflow.com
+
+## Networks
+- [What is the point of www in web urls?](https://stackoverflow.com/questions/413490/what-is-the-point-of-www-in-web-urls) | stackoverflow.com
 
 # VIDEOS
 
@@ -399,6 +438,11 @@
   - [Pluralistic: Daily links from Cory Doctorow](https://pluralistic.net/) | pluralistic.net
   - [Daniel Stenberg](https://daniel.haxx.se/) | daniel.haxx.se
   - [John Regehr](blog.regehr.org) | blog.regehr.org
+  - [Joan Westenberg](https://www.joanwestenberg.com/) | joanwestenberg.com
+  - [gingerBill](gingerbill.org) | gingerbill.org
+  - [Anil Dash](https://anildash.com) | anildash.com
+  - [Computational Complexity and other fun stuff ... from Lance Fortnow and Bill Gasarch](https://blog.computationalcomplexity.org/) | computationalcomplexity.org
+  - [Dan Luu](https://danluu.com) | danluu.com
 
 ## Art and Design
 - [Human made content badge pack](https://ko-fi.com/s/4662b19f61) | ko-fi.com
@@ -410,9 +454,12 @@
   - [SQL Murder Mystery](https://mystery.knightlab.com) | knightlab.com
   - [SadServers - Hands-On Linux & DevOps](https://sadservers.com/) | sadservers.com
   - [Programming Puzzles - Jason Turner](https://programmingpuzzles.fun) | programmingpuzzles.fun
+  - [Gandalf | Lakera - Test your AI hacking skills](https://gandalf.lakera.ai/) | gandalf.lakera.ai
 - Silly things
   - [gradient.horse - Draw a horse, watch it run!](https://gradient.horse) | gradient.horse
   - [Amy's fish - Random Fish Generator](https://strudel.org.uk/fish/) | strudel.org.uk
+  - [Vole](https://vole.wtf/) | vole.wtf
+  - [your ai slop bores me](https://youraislopbores.me/) | youraislopbores.me
 - Games
   - [Space Invaders (on the terminal!)](https://github.com/CleanCut/invaders) | github.com
   - [Secure Snake Home - SSH](https://snake.eieio.games/) | snake.eieio.games
