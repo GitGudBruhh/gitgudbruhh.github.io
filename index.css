@@ -131,3 +131,18 @@ footer {
         color: 'yellow';
     }
 }
+
+.warning-navbar {
+    background: yellow; /* Default for small screens */
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+}
+
+@media (min-width: 768px) {
+    .warning-navbar {
+        background: yellow;
+        font-family: 'Press Start 2P';
+        font-size: 15px;
+    }
+}
