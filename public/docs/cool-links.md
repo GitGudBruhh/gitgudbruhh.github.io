@@ -73,11 +73,16 @@
 - [Caches: LRU v. random](https://danluu.com/2choices-eviction/) | danluu.com
 - [Testing v. informal reasoning](https://danluu.com/tests-v-reason/) | danluu.com
 
+## Analog Systems
+- [FM Synthesis of Instrument Sounds](https://dspfirst.gatech.edu/chapters/03spect/demos/fmsynth/index.html) | gatech.edu
+
 ## Programming
 - General
   - [eBPF: Yes, it's Turing Complete (CGoL in eBPF)](https://isovalent.com/blog/post/ebpf-yes-its-turing-complete/) | isovalent.com
   - [NaN boxing or how to make the world dynamic](https://web.archive.org/web/20251230221242/https://piotrduperas.com/posts/nan-boxing) | piotrduperas.com | archive.org
   - [Package Managers are Evil](https://www.gingerbill.org/article/2025/09/08/package-managers-are-evil/) | gingerbill.org
+  - [Reversing the technical interview](https://aphyr.com/posts/340-reversing-the-technical-interview) | aphyr.com
+  - [Hexing the technical interview](https://aphyr.com/posts/341-hexing-the-technical-interview) | aphyr.com
 - C/C++
   - [The Underhanded C Contest - The official perfectly innocent web page for law-abiding good guys](https://underhanded-c.org/) | underhanded-c.org
   - [Copy Elision in C++](https://www.geeksforgeeks.org/cpp/copy-elision-in-cpp/) | geeksforgeeks.org
@@ -204,6 +209,9 @@
 ## History
 - [The International Brigades – Meet the Anti-Fascist Foreign Volunteers of the Spanish Civil War](https://militaryhistorynow.com/2020/10/10/the-international-brigades-meet-the-anti-fascist-foreign-volunteers-of-the-spanish-civil-war/) | militaryhistorynow.com
 - [What the Luddites Really Fought Against](https://www.smithsonianmag.com/history/what-the-luddites-really-fought-against-264412/) | smithsonianmag.com
+
+## Math
+- [Geodesics on an ellipsoid](https://wikipedia.org/wiki/Geodesics_on_an_ellipsoid) | wikipedia.org
 
 # BOOKS
 * Wondering how to get books online? [These sites](https://fmhy.net/storage#libgen-mirrors) might be useful.
@@ -392,6 +400,9 @@
 ## Networks
 - [What is the point of www in web urls?](https://stackoverflow.com/questions/413490/what-is-the-point-of-www-in-web-urls) | stackoverflow.com
 
+## Math
+- [Ants on an ellipsoid](https://mathstodon.xyz/@gregeganSF/115994156476743524) | mathstodon.xyz
+
 # VIDEOS
 
 ## Programming
@@ -443,7 +454,8 @@
   - [Anil Dash](https://anildash.com) | anildash.com
   - [Computational Complexity and other fun stuff ... from Lance Fortnow and Bill Gasarch](https://blog.computationalcomplexity.org/) | computationalcomplexity.org
   - [Dan Luu](https://danluu.com) | danluu.com
-
+  - [Aphyr](https://aphyr.com/) | aphyr.com
+  
 ## Art and Design
 - [Human made content badge pack](https://ko-fi.com/s/4662b19f61) | ko-fi.com
 
@@ -455,6 +467,14 @@
   - [SadServers - Hands-On Linux & DevOps](https://sadservers.com/) | sadservers.com
   - [Programming Puzzles - Jason Turner](https://programmingpuzzles.fun) | programmingpuzzles.fun
   - [Gandalf | Lakera - Test your AI hacking skills](https://gandalf.lakera.ai/) | gandalf.lakera.ai
+- Music
+  - [Jet Set Radio](https://jetsetradio.live/) | jetsetradio.live
+  - Beepbox and forks
+    - [BeepBox Mods](https://beepbox.miraheze.org/wiki/BeepBox_Mods) | beepbox.miraheze.org
+    - [BeepBox](https://www.beepbox.co/) | beepbox.co
+    - [JukeBox](https://jukeebox.github.io/) | jukeebox.github.io
+    - [JummBox](https://jummb.us/) | jummb.us
+    - [UltraBox](https://ultraabox.github.io/) | ultraabox.github.io
 - Silly things
   - [gradient.horse - Draw a horse, watch it run!](https://gradient.horse) | gradient.horse
   - [Amy's fish - Random Fish Generator](https://strudel.org.uk/fish/) | strudel.org.uk
